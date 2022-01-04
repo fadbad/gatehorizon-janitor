@@ -1,0 +1,6 @@
+yarn add react-native-svg-transformer react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view moment lodash axios moti @react-native-community/async-storage @react-native-community/netinfo i18next react-i18next libphonenumber-js prop-types react-native-fast-image react-native-geolocation-service react-native-linear-gradient react-native-onesignal react-native-restart react-native-sound react-native-splash-screen react-native-webview
+
+yarn add -D jetifier @bam.tech/react-native-make
+
+react-native set-icon --path ./assets/icon.png
+react-native set-splash --path ./assets/splash.png --resize center

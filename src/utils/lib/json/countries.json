@@ -1,0 +1,1696 @@
+[ 
+  {
+    "name": "Afghanistan (افغانستان)",
+    "en": "Afghanistan",
+    "ar": "افغانستان",
+    "code": "af",
+    "dialCode": "93"
+  },
+  {
+    "name": "Albania (Shqipëri)",
+    "en": "Albania",
+    "ar": "ألبانيا",
+    "code": "al",
+    "dialCode": "355"
+  },
+  {
+    "name": "Algeria (الجزائر)",
+    "en": "Algeria",
+    "ar": "الجزائر",
+    "code": "dz",
+    "dialCode": "213"
+  },
+  {
+    "name": "American Samoa",
+    "en": "American Samoa",
+    "ar": "ساموا الأمريكية",
+    "code": "as",
+    "dialCode": "1684"
+  },
+  {
+    "name": "Andorra",
+    "en": "Andorra",
+    "ar": "أندورا",
+    "code": "ad",
+    "dialCode": "376"
+  },
+  {
+    "name": "Angola",
+    "en": "Angola",
+    "ar": "أنجولا",
+    "code": "ao",
+    "dialCode": "244"
+  },
+  {
+    "name": "Anguilla",
+    "en": "Anguilla",
+    "ar": "أنجويلا",
+    "code": "ai",
+    "dialCode": "1264"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "en": "Antigua and Barbuda",
+    "ar": "أنتيجوا وبربودا",
+    "code": "ag",
+    "dialCode": "1268"
+  },
+  {
+    "name": "Argentina",
+    "en": "Argentina",
+    "ar": "الأرجنتين",
+    "code": "ar",
+    "dialCode": "54"
+  },
+  {
+    "name": "Armenia (Հայաստան)",
+    "en": "Armenia",
+    "ar": "أرمينيا",
+    "code": "am",
+    "dialCode": "374"
+  },
+  {
+    "name": "Aruba",
+    "en": "Aruba",
+    "ar": "آروبا",
+    "code": "aw",
+    "dialCode": "297"
+  },
+  {
+    "name": "Australia",
+    "en": "Australia",
+    "ar": "أستراليا",
+    "code": "au",
+    "dialCode": "61"
+  },
+  {
+    "name": "Austria (Österreich)",
+    "en": "Austria",
+    "ar": "النمسا",
+    "code": "at",
+    "dialCode": "43"
+  },
+  {
+    "name": "Azerbaijan (Azərbaycan)",
+    "en": "Azerbaijan",
+    "ar": "أذربيجان",
+    "code": "az",
+    "dialCode": "994"
+  },
+  {
+    "name": "Bahamas",
+    "en": "Bahamas",
+    "ar": "الباهاما",
+    "code": "bs",
+    "dialCode": "1242"
+  },
+  {
+    "name": "Bahrain (البحرين)",
+    "en": "Bahrain",
+    "ar": "البحرين",
+    "code": "bh",
+    "dialCode": "973"
+  },
+  {
+    "name": "Bangladesh (বাংলাদেশ)",
+    "en": "Bangladesh",
+    "ar": "بنجلاديش",
+    "code": "bd",
+    "dialCode": "880"
+  },
+  {
+    "name": "Barbados",
+    "en": "Barbados",
+    "ar": "بربادوس",
+    "code": "bb",
+    "dialCode": "1246"
+  },
+  {
+    "name": "Belarus (Беларусь)",
+    "en": "Belarus",
+    "ar": "روسيا البيضاء",
+    "code": "by",
+    "dialCode": "375"
+  },
+  {
+    "name": "Belgium (België)",
+    "en": "Belgium",
+    "ar": "بلجيكا",
+    "code": "be",
+    "dialCode": "32"
+  },
+  {
+    "name": "Belize",
+    "en": "Belize",
+    "ar": "بليز",
+    "code": "bz",
+    "dialCode": "501"
+  },
+  {
+    "name": "Benin (Bénin)",
+    "en": "Benin",
+    "ar": "بنين",
+    "code": "bj",
+    "dialCode": "229"
+  },
+  {
+    "name": "Bermuda",
+    "en": "Bermuda",
+    "ar": "برمودا",
+    "code": "bm",
+    "dialCode": "1441"
+  },
+  {
+    "name": "Bhutan (འབྲུག)",
+    "en": "Bhutan",
+    "ar": "بوتان",
+    "code": "bt",
+    "dialCode": "975"
+  },
+  {
+    "name": "Bolivia",
+    "en": "Bolivia",
+    "ar": "بوليفيا",
+    "code": "bo",
+    "dialCode": "591"
+  },
+  {
+    "name": "Bosnia and Herzegovina (Босна и Херцеговина)",
+    "en": "Bosnia and Herzegovina",
+    "ar": "البوسنة والهرسك",
+    "code": "ba",
+    "dialCode": "387"
+  },
+  {
+    "name": "Botswana",
+    "en": "Botswana",
+    "ar": "بتسوانا",
+    "code": "bw",
+    "dialCode": "267"
+  },
+  {
+    "name": "Brazil (Brasil)",
+    "en": "Brazil",
+    "ar": "البرازيل",
+    "code": "br",
+    "dialCode": "55"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "en": "British Indian Ocean Territory",
+    "ar": "المحيط الهندي البريطاني",
+    "code": "io",
+    "dialCode": "246"
+  },
+  {
+    "name": "British Virgin Islands",
+    "en": "British Virgin Islands",
+    "ar": "جزر فرجين البريطانية",
+    "code": "vg",
+    "dialCode": "1284"
+  },
+  {
+    "name": "Brunei",
+    "en": "Brunei",
+    "ar": "بروناي",
+    "code": "bn",
+    "dialCode": "673"
+  },
+  {
+    "name": "Bulgaria (България)",
+    "en": "Bulgaria",
+    "ar": "بلغاريا",
+    "code": "bg",
+    "dialCode": "359"
+  },
+  {
+    "name": "Burkina Faso",
+    "en": "Burkina Faso",
+    "ar": "بوركينا فاسو",
+    "code": "bf",
+    "dialCode": "226"
+  },
+  {
+    "name": "Burundi (Uburundi)",
+    "en": "Burundi",
+    "ar": "بوروندي",
+    "code": "bi",
+    "dialCode": "257"
+  },
+  {
+    "name": "Cambodia (កម្ពុជា)",
+    "en": "Cambodia",
+    "ar": "كمبوديا",
+    "code": "kh",
+    "dialCode": "855"
+  },
+  {
+    "name": "Cameroon (Cameroun)",
+    "en": "Cameroon",
+    "ar": "الكاميرون",
+    "code": "cm",
+    "dialCode": "237"
+  },
+  {
+    "name": "Canada",
+    "en": "Canada",
+    "ar": "كندا",
+    "code": "ca",
+    "dialCode": "1"
+  },
+  {
+    "name": "Cape Verde (Kabu Verdi)",
+    "en": "Cape Verde",
+    "ar": "الرأس الأخضر",
+    "code": "cv",
+    "dialCode": "238"
+  },
+  {
+    "name": "Caribbean Netherlands",
+    "en": "Caribbean Netherlands",
+    "ar": "بونير",
+    "code": "bq",
+    "dialCode": "599"
+  },
+  {
+    "name": "Cayman Islands",
+    "en": "Cayman Islands",
+    "ar": "جزر الكايمن",
+    "code": "ky",
+    "dialCode": "1345"
+  },
+  {
+    "name": "Central African Republic (République centrafricaine)",
+    "en": "Central African Republic",
+    "ar": "جمهورية افريقيا الوسطى",
+    "code": "cf",
+    "dialCode": "236"
+  },
+  {
+    "name": "Chad (Tchad)",
+    "en": "Chad",
+    "ar": "تشاد",
+    "code": "td",
+    "dialCode": "235"
+  },
+  {
+    "name": "Chile",
+    "en": "Chile",
+    "ar": "شيلي",
+    "code": "cl",
+    "dialCode": "56"
+  },
+  {
+    "name": "China (中国)",
+    "en": "China",
+    "ar": "الصين",
+    "code": "cn",
+    "dialCode": "86"
+  },
+  {
+    "name": "Christmas Island",
+    "en": "Christmas Island",
+    "ar": "جزيرة الكريسماس",
+    "code": "cx",
+    "dialCode": "61"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "en": "Cocos (Keeling) Islands",
+    "ar": "جزر كوكوس",
+    "code": "cc",
+    "dialCode": "61"
+  },
+  {
+    "name": "Colombia",
+    "en": "Colombia",
+    "ar": "كولومبيا",
+    "code": "co",
+    "dialCode": "57"
+  },
+  {
+    "name": "Comoros (جزر القمر)",
+    "en": "Comoros",
+    "ar": "جزر القمر",
+    "code": "km",
+    "dialCode": "269"
+  },
+  {
+    "name": "Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)",
+    "en": "Congo",
+    "ar": "جمهورية الكونغو الديمقراطية",
+    "code": "cd",
+    "dialCode": "243"
+  },
+  {
+    "name": "Congo (Republic) (Congo-Brazzaville)",
+    "en": "Congo-Brazzaville",
+    "ar": "الكونغو - برازافيل",
+    "code": "cg",
+    "dialCode": "242"
+  },
+  {
+    "name": "Cook Islands",
+    "en": "Cook Islands",
+    "ar": "جزر كوك",
+    "code": "ck",
+    "dialCode": "682"
+  },
+  {
+    "name": "Costa Rica",
+    "en": "Costa Rica",
+    "ar": "كوستاريكا",
+    "code": "cr",
+    "dialCode": "506"
+  },
+  {
+    "name": "Côte d’Ivoire",
+    "en": "Côte d’Ivoire",
+    "ar": "ساحل العاج",
+    "code": "ci",
+    "dialCode": "225"
+  },
+  {
+    "name": "Croatia (Hrvatska)",
+    "en": "Croatia",
+    "ar": "كرواتيا",
+    "code": "hr",
+    "dialCode": "385"
+  },
+  {
+    "name": "Cuba",
+    "en": "Cuba",
+    "ar": "كوبا",
+    "code": "cu",
+    "dialCode": "53"
+  },
+  {
+    "name": "Curaçao",
+    "en": "Curaçao",
+    "ar": "كوراساو",
+    "code": "cw",
+    "dialCode": "599"
+  },
+  {
+    "name": "Cyprus (Κύπρος)",
+    "en": "Cyprus",
+    "ar": "قبرص",
+    "code": "cy",
+    "dialCode": "357"
+  },
+  {
+    "name": "Czech Republic (Česká republika)",
+    "en": "Czech Republic",
+    "ar": "جمهورية التشيك",
+    "code": "cz",
+    "dialCode": "420"
+  },
+  {
+    "name": "Denmark (Danmark)",
+    "en": "Denmark",
+    "ar": "الدانمرك",
+    "code": "dk",
+    "dialCode": "45"
+  },
+  {
+    "name": "Djibouti",
+    "en": "Djibouti",
+    "ar": "جيبوتي",
+    "code": "dj",
+    "dialCode": "253"
+  },
+  {
+    "name": "Dominica",
+    "en": "Dominica",
+    "ar": "دومينيكا",
+    "code": "dm",
+    "dialCode": "1767"
+  },
+  {
+    "name": "Dominican Republic (República Dominicana)",
+    "en": "Dominican Republic",
+    "ar": "جمهورية الدومينيك",
+    "code": "do",
+    "dialCode": "1"
+  },
+  {
+    "name": "Ecuador",
+    "en": "Ecuador",
+    "ar": "الاكوادور",
+    "code": "ec",
+    "dialCode": "593"
+  },
+  {
+    "name": "Egypt (مصر)",
+    "en": "Egypt",
+    "ar": "مصر",
+    "code": "eg",
+    "dialCode": "20"
+  },
+  {
+    "name": "El Salvador",
+    "en": "El Salvador",
+    "ar": "السلفادور",
+    "code": "sv",
+    "dialCode": "503"
+  },
+  {
+    "name": "Equatorial Guinea (Guinea Ecuatorial)",
+    "en": "Equatorial Guinea",
+    "ar": "غينيا الاستوائية",
+    "code": "gq",
+    "dialCode": "240"
+  },
+  {
+    "name": "Eritrea",
+    "en": "Eritrea",
+    "ar": "اريتريا",
+    "code": "er",
+    "dialCode": "291"
+  },
+  {
+    "name": "Estonia (Eesti)",
+    "en": "Estonia",
+    "ar": "استونيا",
+    "code": "ee",
+    "dialCode": "372"
+  },
+  {
+    "name": "Ethiopia",
+    "en": "Ethiopia",
+    "ar": "اثيوبيا",
+    "code": "et",
+    "dialCode": "251"
+  },
+  {
+    "name": "Falkland Islands (Islas Malvinas)",
+    "en": "Falkland Islands",
+    "ar": "جزر فوكلاند",
+    "code": "fk",
+    "dialCode": "500"
+  },
+  {
+    "name": "Faroe Islands (Føroyar)",
+    "en": "Faroe Islands",
+    "ar": "جزر فارو",
+    "code": "fo",
+    "dialCode": "298"
+  },
+  {
+    "name": "Fiji",
+    "en": "Fiji",
+    "ar": "فيجي",
+    "code": "fj",
+    "dialCode": "679"
+  },
+  {
+    "name": "Finland (Suomi)",
+    "en": "Finland",
+    "ar": "فنلندا",
+    "code": "fi",
+    "dialCode": "358"
+  },
+  {
+    "name": "France",
+    "en": "France",
+    "ar": "فرنسا",
+    "code": "fr",
+    "dialCode": "33"
+  },
+  {
+    "name": "French Guiana (Guyane française)",
+    "en": "French Guiana",
+    "ar": "غويانا",
+    "code": "gf",
+    "dialCode": "594"
+  },
+  {
+    "name": "French Polynesia (Polynésie française)",
+    "en": "French Polynesia",
+    "ar": "بولينيزيا الفرنسية",
+    "code": "pf",
+    "dialCode": "689"
+  },
+  {
+    "name": "Gabon",
+    "en": "Gabon",
+    "ar": "الجابون",
+    "code": "ga",
+    "dialCode": "241"
+  },
+  {
+    "name": "Gambia",
+    "en": "Gambia",
+    "ar": "غامبيا",
+    "code": "gm",
+    "dialCode": "220"
+  },
+  {
+    "name": "Georgia (საქართველო)",
+    "en": "Georgia",
+    "ar": "جورجيا",
+    "code": "ge",
+    "dialCode": "995"
+  },
+  {
+    "name": "Germany (Deutschland)",
+    "en": "Germany",
+    "ar": "ألمانيا",
+    "code": "de",
+    "dialCode": "49"
+  },
+  {
+    "name": "Ghana (Gaana)",
+    "en": "Ghana",
+    "ar": "غانا",
+    "code": "gh",
+    "dialCode": "233"
+  },
+  {
+    "name": "Gibraltar",
+    "en": "Gibraltar",
+    "ar": "جبل طارق",
+    "code": "gi",
+    "dialCode": "350"
+  },
+  {
+    "name": "Greece (Ελλάδα)",
+    "en": "Greece",
+    "ar": "اليونان",
+    "code": "gr",
+    "dialCode": "30"
+  },
+  {
+    "name": "Greenland (Kalaallit Nunaat)",
+    "en": "Greenland",
+    "ar": "جرينلاند",
+    "code": "gl",
+    "dialCode": "299"
+  },
+  {
+    "name": "Grenada",
+    "en": "Grenada",
+    "ar": "جرينادا",
+    "code": "gd",
+    "dialCode": "1473"
+  },
+  {
+    "name": "Guadeloupe",
+    "en": "Guadeloupe",
+    "ar": "جوادلوب",
+    "code": "gp",
+    "dialCode": "590"
+  },
+  {
+    "name": "Guam",
+    "en": "Guam",
+    "ar": "جوام",
+    "code": "gu",
+    "dialCode": "1671"
+  },
+  {
+    "name": "Guatemala",
+    "en": "Guatemala",
+    "ar": "جواتيمالا",
+    "code": "gt",
+    "dialCode": "502"
+  },
+  {
+    "name": "Guernsey",
+    "en": "Guernsey",
+    "ar": "غيرنزي",
+    "code": "gg",
+    "dialCode": "44"
+  },
+  {
+    "name": "Guinea (Guinée)",
+    "en": "Guinea",
+    "ar": "غينيا",
+    "code": "gn",
+    "dialCode": "224"
+  },
+  {
+    "name": "Guinea-Bissau (Guiné Bissau)",
+    "en": "Guinea-Bissau",
+    "ar": "غينيا بيساو",
+    "code": "gw",
+    "dialCode": "245"
+  },
+  {
+    "name": "Guyana",
+    "en": "Guyana",
+    "ar": "غيانا",
+    "code": "gy",
+    "dialCode": "592"
+  },
+  {
+    "name": "Haiti",
+    "en": "Haiti",
+    "ar": "هايتي",
+    "code": "ht",
+    "dialCode": "509"
+  },
+  {
+    "name": "Honduras",
+    "en": "Honduras",
+    "ar": "هندوراس",
+    "code": "hn",
+    "dialCode": "504"
+  },
+  {
+    "name": "Hong Kong (香港)",
+    "en": "Hong Kong",
+    "ar": "هونج كونج الصينية",
+    "code": "hk",
+    "dialCode": "852"
+  },
+  {
+    "name": "Hungary (Magyarország)",
+    "en": "Hungary",
+    "ar": "المجر",
+    "code": "hu",
+    "dialCode": "36"
+  },
+  {
+    "name": "Iceland (Ísland)",
+    "en": "Iceland",
+    "ar": "أيسلندا",
+    "code": "is",
+    "dialCode": "354"
+  },
+  {
+    "name": "India (भारत)",
+    "en": "India",
+    "ar": "الهند",
+    "code": "in",
+    "dialCode": "91"
+  },
+  {
+    "name": "Indonesia",
+    "en": "Indonesia",
+    "ar": "اندونيسيا",
+    "code": "id",
+    "dialCode": "62"
+  },
+  {
+    "name": "Iran (ایران)",
+    "en": "Iran",
+    "ar": "ایران",
+    "code": "ir",
+    "dialCode": "98"
+  },
+  {
+    "name": "Iraq (العراق)",
+    "en": "Iraq",
+    "ar": "العراق",
+    "code": "iq",
+    "dialCode": "964"
+  },
+  {
+    "name": "Ireland",
+    "en": "Ireland",
+    "ar": "أيرلندا",
+    "code": "ie",
+    "dialCode": "353"
+  },
+  {
+    "name": "Isle of Man",
+    "en": "Isle of Man",
+    "ar": "جزيرة مان",
+    "code": "im",
+    "dialCode": "44"
+  },
+  {
+    "name": "Israel (ישראל)",
+    "en": "Israel",
+    "ar": "اسرائيل",
+    "code": "il",
+    "dialCode": "972"
+  },
+  {
+    "name": "Italy (Italia)",
+    "en": "Italy",
+    "ar": "ايطاليا",
+    "code": "it",
+    "dialCode": "39"
+  },
+  {
+    "name": "Jamaica",
+    "en": "Jamaica",
+    "ar": "جامايكا",
+    "code": "jm",
+    "dialCode": "1876"
+  },
+  {
+    "name": "Japan (日本)",
+    "en": "Japan",
+    "ar": "اليابان",
+    "code": "jp",
+    "dialCode": "81"
+  },
+  {
+    "name": "Jersey",
+    "en": "Jersey",
+    "ar": "جيرسي",
+    "code": "je",
+    "dialCode": "44"
+  },
+  {
+    "name": "Jordan (الأردن)",
+    "en": "Jordan",
+    "ar": "الأردن",
+    "code": "jo",
+    "dialCode": "962"
+  },
+  {
+    "name": "Kazakhstan (Казахстан)",
+    "en": "Kazakhstan",
+    "ar": "كازاخستان",
+    "code": "kz",
+    "dialCode": "77"
+  },
+  {
+    "name": "Kenya",
+    "en": "Kenya",
+    "ar": "كينيا",
+    "code": "ke",
+    "dialCode": "254"
+  },
+  {
+    "name": "Kiribati",
+    "en": "Kiribati",
+    "ar": "كيريباتي",
+    "code": "ki",
+    "dialCode": "686"
+  },
+  {
+    "name": "Kuwait (الكويت)",
+    "en": "Kuwait",
+    "ar": "الكويت",
+    "code": "kw",
+    "dialCode": "965"
+  },
+  {
+    "name": "Kyrgyzstan (Кыргызстан)",
+    "en": "Kyrgyzstan",
+    "ar": "قرغيزستان",
+    "code": "kg",
+    "dialCode": "996"
+  },
+  {
+    "name": "Laos (ລາວ)",
+    "en": "Laos",
+    "ar": "لاوس",
+    "code": "la",
+    "dialCode": "856"
+  },
+  {
+    "name": "Latvia (Latvija)",
+    "en": "Latvia",
+    "ar": "لاتفيا",
+    "code": "lv",
+    "dialCode": "371"
+  },
+  {
+    "name": "Lebanon (لبنان)",
+    "en": "Lebanon",
+    "ar": "لبنان",
+    "code": "lb",
+    "dialCode": "961"
+  },
+  {
+    "name": "Lesotho",
+    "en": "Lesotho",
+    "ar": "ليسوتو",
+    "code": "ls",
+    "dialCode": "266"
+  },
+  {
+    "name": "Liberia",
+    "en": "Liberia",
+    "ar": "ليبيريا",
+    "code": "lr",
+    "dialCode": "231"
+  },
+  {
+    "name": "Libya (ليبيا)",
+    "en": "Libya",
+    "ar": "ليبيا",
+    "code": "ly",
+    "dialCode": "218"
+  },
+  {
+    "name": "Liechtenstein",
+    "en": "Liechtenstein",
+    "ar": "ليختنشتاين",
+    "code": "li",
+    "dialCode": "423"
+  },
+  {
+    "name": "Lithuania (Lietuva)",
+    "en": "Lithuania",
+    "ar": "ليتوانيا",
+    "code": "lt",
+    "dialCode": "370"
+  },
+  {
+    "name": "Luxembourg",
+    "en": "Luxembourg",
+    "ar": "لوكسمبورج",
+    "code": "lu",
+    "dialCode": "352"
+  },
+  {
+    "name": "Macau (澳門)",
+    "en": "Macau",
+    "ar": "ماكاو الصينية",
+    "code": "mo",
+    "dialCode": "853"
+  },
+  {
+    "name": "Macedonia (FYROM) (Македонија)",
+    "en": "Macedonia",
+    "ar": "مقدونيا",
+    "code": "mk",
+    "dialCode": "389"
+  },
+  {
+    "name": "Madagascar (Madagasikara)",
+    "en": "Madagascar",
+    "ar": "مدغشقر",
+    "code": "mg",
+    "dialCode": "261"
+  },
+  {
+    "name": "Malawi",
+    "en": "Malawi",
+    "ar": "ملاوي",
+    "code": "mw",
+    "dialCode": "265"
+  },
+  {
+    "name": "Malaysia",
+    "en": "Malaysia",
+    "ar": "ماليزيا",
+    "code": "my",
+    "dialCode": "60"
+  },
+  {
+    "name": "Maldives",
+    "en": "Maldives",
+    "ar": "جزر الملديف",
+    "code": "mv",
+    "dialCode": "960"
+  },
+  {
+    "name": "Mali",
+    "en": "Mali",
+    "ar": "مالي",
+    "code": "ml",
+    "dialCode": "223"
+  },
+  {
+    "name": "Malta",
+    "en": "Malta",
+    "ar": "مالطا",
+    "code": "mt",
+    "dialCode": "356"
+  },
+  {
+    "name": "Marshall Islands",
+    "en": "Marshall Islands",
+    "ar": "جزر المارشال",
+    "code": "mh",
+    "dialCode": "692"
+  },
+  {
+    "name": "Martinique",
+    "en": "Martinique",
+    "ar": "مارتينيك",
+    "code": "mq",
+    "dialCode": "596"
+  },
+  {
+    "name": "Mauritania (موريتانيا)",
+    "en": "Mauritania",
+    "ar": "موريتانيا",
+    "code": "mr",
+    "dialCode": "222"
+  },
+  {
+    "name": "Mauritius (Moris)",
+    "en": "Mauritius",
+    "ar": "موريشيوس",
+    "code": "mu",
+    "dialCode": "230"
+  },
+  {
+    "name": "Mayotte",
+    "en": "Mayotte",
+    "ar": "مايوت",
+    "code": "yt",
+    "dialCode": "262"
+  },
+  {
+    "name": "Mexico (México)",
+    "en": "Mexico",
+    "ar": "المكسيك",
+    "code": "mx",
+    "dialCode": "52"
+  },
+  {
+    "name": "Micronesia",
+    "en": "Micronesia",
+    "ar": "ميكرونيزيا",
+    "code": "fm",
+    "dialCode": "691"
+  },
+  {
+    "name": "Moldova (Republica Moldova)",
+    "en": "Moldova",
+    "ar": "مولدافيا",
+    "code": "md",
+    "dialCode": "373"
+  },
+  {
+    "name": "Monaco",
+    "en": "Monaco",
+    "ar": "موناكو",
+    "code": "mc",
+    "dialCode": "377"
+  },
+  {
+    "name": "Mongolia (Монгол)",
+    "en": "Mongolia",
+    "ar": "منغوليا",
+    "code": "mn",
+    "dialCode": "976"
+  },
+  {
+    "name": "Montenegro (Crna Gora)",
+    "en": "Montenegro",
+    "ar": "الجبل الأسود",
+    "code": "me",
+    "dialCode": "382"
+  },
+  {
+    "name": "Montserrat",
+    "en": "Montserrat",
+    "ar": "مونتسرات",
+    "code": "ms",
+    "dialCode": "1664"
+  },
+  {
+    "name": "Morocco (المغرب)",
+    "en": "Morocco",
+    "ar": "المغرب",
+    "code": "ma",
+    "dialCode": "212"
+  },
+  {
+    "name": "Mozambique (Moçambique)",
+    "en": "Mozambique",
+    "ar": "موزمبيق",
+    "code": "mz",
+    "dialCode": "258"
+  },
+  {
+    "name": "Myanmar (Burma)",
+    "en": "Myanmar",
+    "ar": "ميانمار",
+    "code": "mm",
+    "dialCode": "95"
+  },
+  {
+    "name": "Namibia (Namibië)",
+    "en": "Namibia",
+    "ar": "ناميبيا",
+    "code": "na",
+    "dialCode": "264"
+  },
+  {
+    "name": "Nauru",
+    "en": "Nauru",
+    "ar": "نورو",
+    "code": "nr",
+    "dialCode": "674"
+  },
+  {
+    "name": "Nepal (नेपाल)",
+    "en": "Nepal",
+    "ar": "نيبال",
+    "code": "np",
+    "dialCode": "977"
+  },
+  {
+    "name": "Netherlands (Nederland)",
+    "en": "Netherlands",
+    "ar": "هولندا",
+    "code": "nl",
+    "dialCode": "31"
+  },
+  {
+    "name": "New Caledonia (Nouvelle-Calédonie)",
+    "en": "New Caledonia",
+    "ar": "كاليدونيا الجديدة",
+    "code": "nc",
+    "dialCode": "687"
+  },
+  {
+    "name": "New Zealand",
+    "en": "New Zealand",
+    "ar": "نيوزيلاندا",
+    "code": "nz",
+    "dialCode": "64"
+  },
+  {
+    "name": "Nicaragua",
+    "en": "Nicaragua",
+    "ar": "نيكاراجوا",
+    "code": "ni",
+    "dialCode": "505"
+  },
+  {
+    "name": "Niger (Nijar)",
+    "en": "Niger",
+    "ar": "النيجر",
+    "code": "ne",
+    "dialCode": "227"
+  },
+  {
+    "name": "Nigeria",
+    "en": "Nigeria",
+    "ar": "نيجيريا",
+    "code": "ng",
+    "dialCode": "234"
+  },
+  {
+    "name": "Niue",
+    "en": "Niue",
+    "ar": "نيوي",
+    "code": "nu",
+    "dialCode": "683"
+  },
+  {
+    "name": "Norfolk Island",
+    "en": "Norfolk Island",
+    "ar": "جزيرة نورفوك",
+    "code": "nf",
+    "dialCode": "672"
+  },
+  {
+    "name": "North Korea (조선 민주주의 인민 공화국)",
+    "en": "North Korea",
+    "ar": "كوريا الشمالية",
+    "code": "kp",
+    "dialCode": "850"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "en": "Northern Mariana Islands",
+    "ar": "جزر ماريانا الشمالية",
+    "code": "mp",
+    "dialCode": "1670"
+  },
+  {
+    "name": "Norway (Norge)",
+    "en": "Norway",
+    "ar": "النرويج",
+    "code": "no",
+    "dialCode": "47"
+  },
+  {
+    "name": "Oman (عُمان)",
+    "en": "Oman",
+    "ar": "عُمان",
+    "code": "om",
+    "dialCode": "968"
+  },
+  {
+    "name": "Pakistan (پاکستان)",
+    "en": "Pakistan",
+    "ar": "پاکستان",
+    "code": "pk",
+    "dialCode": "92"
+  },
+  {
+    "name": "Palau",
+    "en": "Palau",
+    "ar": "بالاو",
+    "code": "pw",
+    "dialCode": "680"
+  },
+  {
+    "name": "Palestine (فلسطين)",
+    "en": "Palestine",
+    "ar": "فلسطين",
+    "code": "ps",
+    "dialCode": "970"
+  },
+  {
+    "name": "Panama (Panamá)",
+    "en": "Panama",
+    "ar": "بنما",
+    "code": "pa",
+    "dialCode": "507"
+  },
+  {
+    "name": "Papua New Guinea",
+    "en": "Papua New Guinea",
+    "ar": "بابوا غينيا الجديدة",
+    "code": "pg",
+    "dialCode": "675"
+  },
+  {
+    "name": "Paraguay",
+    "en": "Paraguay",
+    "ar": "باراجواي",
+    "code": "py",
+    "dialCode": "595"
+  },
+  {
+    "name": "Peru (Perú)",
+    "en": "Peru",
+    "ar": "بيرو",
+    "code": "pe",
+    "dialCode": "51"
+  },
+  {
+    "name": "Philippines",
+    "en": "Philippines",
+    "ar": "الفيلبين",
+    "code": "ph",
+    "dialCode": "63"
+  },
+  {
+    "name": "Poland (Polska)",
+    "en": "Poland",
+    "ar": "بولندا",
+    "code": "pl",
+    "dialCode": "48"
+  },
+  {
+    "name": "Portugal",
+    "en": "Portugal",
+    "ar": "البرتغال",
+    "code": "pt",
+    "dialCode": "351"
+  },
+  {
+    "name": "Puerto Rico",
+    "en": "Puerto Rico",
+    "ar": "بورتوريكو",
+    "code": "pr",
+    "dialCode": "1"
+  },
+  {
+    "name": "Qatar (قطر)",
+    "en": "Qatar",
+    "ar": "قطر",
+    "code": "qa",
+    "dialCode": "974"
+  },
+  {
+    "name": "Réunion (La Réunion)",
+    "en": "Réunion",
+    "ar": "روينيون",
+    "code": "re",
+    "dialCode": "262"
+  },
+  {
+    "name": "Romania (România)",
+    "en": "Romania",
+    "ar": "رومانيا",
+    "code": "ro",
+    "dialCode": "40"
+  },
+  {
+    "name": "Russia (Россия)",
+    "en": "Russia",
+    "ar": "روسيا",
+    "code": "ru",
+    "dialCode": "7"
+  },
+  {
+    "name": "Rwanda",
+    "en": "Rwanda",
+    "ar": "رواندا",
+    "code": "rw",
+    "dialCode": "250"
+  },
+  {
+    "name": "Saint Barthélemy (Saint-Barthélemy)",
+    "en": "Saint Barthélemy",
+    "ar": "سان بارتيلمي",
+    "code": "bl",
+    "dialCode": "590"
+  },
+  {
+    "name": "Saint Helena",
+    "en": "Saint Helena",
+    "ar": "سانت هيلنا",
+    "code": "sh",
+    "dialCode": "290"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "en": "Saint Kitts and Nevis",
+    "ar": "سانت كيتس ونيفيس",
+    "code": "kn",
+    "dialCode": "1869"
+  },
+  {
+    "name": "Saint Lucia",
+    "en": "Saint Lucia",
+    "ar": "سانت لوسيا",
+    "code": "lc",
+    "dialCode": "1758"
+  },
+  {
+    "name": "Saint Martin (Saint-Martin (partie française))",
+    "en": "Saint Martin",
+    "ar": "سانت مارتين",
+    "code": "mf",
+    "dialCode": "590"
+  },
+  {
+    "name": "Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)",
+    "en": "Saint Pierre and Miquelon",
+    "ar": "سانت بيير وميكولون",
+    "code": "pm",
+    "dialCode": "508"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "en": "Saint Vincent and the Grenadines",
+    "ar": "سانت فنسنت وغرنادين",
+    "code": "vc",
+    "dialCode": "1784"
+  },
+  {
+    "name": "Samoa",
+    "en": "Samoa",
+    "ar": "ساموا",
+    "code": "ws",
+    "dialCode": "685"
+  },
+  {
+    "name": "San Marino",
+    "en": "San Marino",
+    "ar": "سان مارينو",
+    "code": "sm",
+    "dialCode": "378"
+  },
+  {
+    "name": "São Tomé and Príncipe (São Tomé e Príncipe)",
+    "en": "São Tomé and Príncipe",
+    "ar": "ساو تومي وبرينسيبي",
+    "code": "st",
+    "dialCode": "239"
+  },
+  {
+    "name": "Saudi Arabia (المملكة العربية السعودية)",
+    "en": "Saudi Arabia",
+    "ar": "المملكة العربية السعودية",
+    "code": "sa",
+    "dialCode": "966"
+  },
+  {
+    "name": "Senegal (Sénégal)",
+    "en": "Senegal",
+    "ar": "السنغال",
+    "code": "sn",
+    "dialCode": "221"
+  },
+  {
+    "name": "Serbia (Србија)",
+    "en": "Serbia",
+    "ar": "صربيا",
+    "code": "rs",
+    "dialCode": "381"
+  },
+  {
+    "name": "Seychelles",
+    "en": "Seychelles",
+    "ar": "سيشل",
+    "code": "sc",
+    "dialCode": "248"
+  },
+  {
+    "name": "Sierra Leone",
+    "en": "Sierra Leone",
+    "ar": "سيراليون",
+    "code": "sl",
+    "dialCode": "232"
+  },
+  {
+    "name": "Singapore",
+    "en": "Singapore",
+    "ar": "سنغافورة",
+    "code": "sg",
+    "dialCode": "65"
+  },
+  {
+    "name": "Sint Maarten",
+    "en": "Sint Maarten",
+    "ar": "سينت مارتن",
+    "code": "sx",
+    "dialCode": "1721"
+  },
+  {
+    "name": "Slovakia (Slovensko)",
+    "en": "Slovakia",
+    "ar": "سلوفاكيا",
+    "code": "sk",
+    "dialCode": "421"
+  },
+  {
+    "name": "Slovenia (Slovenija)",
+    "en": "Slovenia",
+    "ar": "سلوفينيا",
+    "code": "si",
+    "dialCode": "386"
+  },
+  {
+    "name": "Solomon Islands",
+    "en": "Solomon Islands",
+    "ar": "جزر سليمان",
+    "code": "sb",
+    "dialCode": "677"
+  },
+  {
+    "name": "Somalia (Soomaaliya)",
+    "en": "Somalia",
+    "ar": "الصومال",
+    "code": "so",
+    "dialCode": "252"
+  },
+  {
+    "name": "South Africa",
+    "en": "South Africa",
+    "ar": "جمهورية جنوب افريقيا",
+    "code": "za",
+    "dialCode": "27"
+  },
+  {
+    "name": "South Korea (대한민국)",
+    "en": "South Korea",
+    "ar": "كوريا الجنوبية",
+    "code": "kr",
+    "dialCode": "82"
+  },
+  {
+    "name": "South Sudan (جنوب السودان)",
+    "en": "South Sudan",
+    "ar": "جنوب السودان",
+    "code": "ss",
+    "dialCode": "211"
+  },
+  {
+    "name": "Spain (España)",
+    "en": "Spain",
+    "ar": "أسبانيا",
+    "code": "es",
+    "dialCode": "34"
+  },
+  {
+    "name": "Sri Lanka (ශ්‍රී ලංකාව)",
+    "en": "Sri Lanka",
+    "ar": "سريلانكا",
+    "code": "lk",
+    "dialCode": "94"
+  },
+  {
+    "name": "Sudan (السودان)",
+    "en": "Sudan",
+    "ar": "السودان",
+    "code": "sd",
+    "dialCode": "249"
+  },
+  {
+    "name": "Suriname",
+    "en": "Suriname",
+    "ar": "سورينام",
+    "code": "sr",
+    "dialCode": "597"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "en": "Svalbard and Jan Mayen",
+    "ar": "سفالبارد وجان مايان",
+    "code": "sj",
+    "dialCode": "47"
+  },
+  {
+    "name": "Swaziland",
+    "en": "Swaziland",
+    "ar": "سوازيلاند",
+    "code": "sz",
+    "dialCode": "268"
+  },
+  {
+    "name": "Sweden (Sverige)",
+    "en": "Sweden",
+    "ar": "السويد",
+    "code": "se",
+    "dialCode": "46"
+  },
+  {
+    "name": "Switzerland (Schweiz)",
+    "en": "Switzerland",
+    "ar": "سويسرا",
+    "code": "ch",
+    "dialCode": "41"
+  },
+  {
+    "name": "Syria (سوريا)",
+    "en": "Syria",
+    "ar": "سوريا",
+    "code": "sy",
+    "dialCode": "963"
+  },
+  {
+    "name": "Taiwan (台灣)",
+    "en": "Taiwan",
+    "ar": "تايوان",
+    "code": "tw",
+    "dialCode": "886"
+  },
+  {
+    "name": "Tajikistan",
+    "en": "Tajikistan",
+    "ar": "طاجكستان",
+    "code": "tj",
+    "dialCode": "992"
+  },
+  {
+    "name": "Tanzania",
+    "en": "Tanzania",
+    "ar": "تانزانيا",
+    "code": "tz",
+    "dialCode": "255"
+  },
+  {
+    "name": "Thailand (ไทย)",
+    "en": "Thailand",
+    "ar": "تايلند",
+    "code": "th",
+    "dialCode": "66"
+  },
+  {
+    "name": "Timor-Leste",
+    "en": "Timor-Leste",
+    "ar": "تيمور الشرقية",
+    "code": "tl",
+    "dialCode": "670"
+  },
+  {
+    "name": "Togo",
+    "en": "Togo",
+    "ar": "توجو",
+    "code": "tg",
+    "dialCode": "228"
+  },
+  {
+    "name": "Tokelau",
+    "en": "Tokelau",
+    "ar": "توكيلو",
+    "code": "tk",
+    "dialCode": "690"
+  },
+  {
+    "name": "Tonga",
+    "en": "Tonga",
+    "ar": "تونجا",
+    "code": "to",
+    "dialCode": "676"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "en": "Trinidad and Tobago",
+    "ar": "ترينيداد وتوباغو",
+    "code": "tt",
+    "dialCode": "1868"
+  },
+  {
+    "name": "Tunisia (تونس)",
+    "en": "Tunisia",
+    "ar": "تونس",
+    "code": "tn",
+    "dialCode": "216"
+  },
+  {
+    "name": "Turkey (Türkiye)",
+    "en": "Turkey",
+    "ar": "تركيا",
+    "code": "tr",
+    "dialCode": "90"
+  },
+  {
+    "name": "Turkmenistan",
+    "en": "Turkmenistan",
+    "ar": "تركمانستان",
+    "code": "tm",
+    "dialCode": "993"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "en": "Turks and Caicos Islands",
+    "ar": "جزر الترك وجايكوس",
+    "code": "tc",
+    "dialCode": "1649"
+  },
+  {
+    "name": "Tuvalu",
+    "en": "Tuvalu",
+    "ar": "توفالو",
+    "code": "tv",
+    "dialCode": "688"
+  },
+  {
+    "name": "U.S. Virgin Islands",
+    "en": "U.S. Virgin Islands",
+    "ar": "جزر فرجين الأمريكية",
+    "code": "vi",
+    "dialCode": "1340"
+  },
+  {
+    "name": "Uganda",
+    "en": "Uganda",
+    "ar": "أوغندا",
+    "code": "ug",
+    "dialCode": "256"
+  },
+  {
+    "name": "Ukraine (Україна)",
+    "en": "Ukraine",
+    "ar": "أوكرانيا",
+    "code": "ua",
+    "dialCode": "380"
+  },
+  {
+    "name": "United Arab Emirates (الإمارات العربية المتحدة)",
+    "en": "United Arab Emirates",
+    "ar": "الإمارات العربية المتحدة",
+    "code": "ae",
+    "dialCode": "971"
+  },  
+  {
+    "name": "United Kingdom",
+    "en": "United Kingdom",
+    "ar": "المملكة المتحدة",
+    "code": "gb",
+    "dialCode": "44"
+  },
+    {
+    "name": "United States",
+    "en": "United States",
+    "ar": "الولايات المتحدة الأمريكية",
+    "code": "us",
+    "dialCode": "1"
+  },
+  {
+    "name": "Uruguay",
+    "en": "Uruguay",
+    "ar": "أورجواي",
+    "code": "uy",
+    "dialCode": "598"
+  },
+  {
+    "name": "Uzbekistan (Oʻzbekiston)",
+    "en": "Uzbekistan",
+    "ar": "أوزبكستان",
+    "code": "uz",
+    "dialCode": "998"
+  },
+  {
+    "name": "Vanuatu",
+    "en": "Vanuatu",
+    "ar": "فانواتو",
+    "code": "vu",
+    "dialCode": "678"
+  },
+  {
+    "name": "Vatican City (Città del Vaticano)",
+    "en": "Vatican City",
+    "ar": "الفاتيكان",
+    "code": "va",
+    "dialCode": "39"
+  },
+  {
+    "name": "Venezuela",
+    "en": "Venezuela",
+    "ar": "فنزويلا",
+    "code": "ve",
+    "dialCode": "58"
+  },
+  {
+    "name": "Vietnam (Việt Nam)",
+    "en": "Vietnam",
+    "ar": "فيتنام",
+    "code": "vn",
+    "dialCode": "84"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "en": "Wallis and Futuna",
+    "ar": "جزر والس وفوتونا",
+    "code": "wf",
+    "dialCode": "681"
+  },
+  {
+    "name": "Western Sahara (الصحراء الغربية)",
+    "en": "Western Sahara",
+    "ar": "الصحراء الغربية",
+    "code": "eh",
+    "dialCode": "212"
+  },
+  {
+    "name": "Yemen (اليمن)",
+    "en": "Yemen",
+    "ar": "اليمن",
+    "code": "ye",
+    "dialCode": "967"
+  },
+  {
+    "name": "Zambia",
+    "en": "Zambia",
+    "ar": "زامبيا",
+    "code": "zm",
+    "dialCode": "260"
+  },
+  {
+    "name": "Zimbabwe",
+    "en": "Zimbabwe",
+    "ar": "زيمبابوي",
+    "code": "zw",
+    "dialCode": "263"
+  },
+  {
+    "name": "Åland Islands",
+    "en": "Åland Islands",
+    "ar": "جزر أولان",
+    "code": "ax",
+    "dialCode": "358"
+  }
+]
