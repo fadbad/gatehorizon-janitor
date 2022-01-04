@@ -1,14 +1,11 @@
 import React from "react";
-// https://github.com/henninghall/react-native-date-picker
-import DatePicker from 'react-native-date-picker'
 import { Div, Text, Icon, COLORS, TextField, Sheet } from '../../ui'
-import { empty, useTranslation, Vars } from "../../utils";
+import { empty, useTranslation, fade, Vars } from "../../utils";
 
 export default React.memo(({
     label, title, onChange, value, dateValue, error, password, type, forwardedRef,
     left, right, color, 
     select, options = [],
-    minimumDate, maximumDate, minuteInterval, 
     ...rest
 }) => {
     const { t } = useTranslation()
@@ -24,8 +21,6 @@ export default React.memo(({
     }
     if(type === 'phone') _props.keyboardType = 'phone-pad'
 
-    const hasDate = (type === 'date' || type === 'time' || type === 'datetime')
-    const [open, setOpen] = React.useState(false)
     const [selectOpen, setSelectOpen] = React.useState(false)
 
     const getSelectValue = (v) => {
@@ -43,6 +38,8 @@ export default React.memo(({
                 ref={REF}
                 tintColor={color || COLORS.secondary}
                 textColor={color || COLORS.black}
+                baseColor={fade(color || COLORS.black, 0.38)}
+
                 label={label}
                 title={title}
                 onChangeText={v => onChange && onChange(v)}
@@ -79,31 +76,6 @@ export default React.memo(({
                             </Div>
                         ))}
                     </Sheet>
-                </>
-            )}
-            {hasDate && (
-                <>
-                    <Div absoluteFill onPress={() => setOpen(true)} />
-                    <DatePicker 
-                        modal
-                        locale={Vars.getLang()}
-                        mode={type}
-                        open={open}
-                        date={dateValue || new Date()}
-                        onCancel={() => setOpen(false)}
-                        onConfirm={(v) => {
-                            setOpen(false)
-                            onChange && onChange(v)
-                        }}
-
-                        minimumDate={minimumDate}
-                        maximumDate={maximumDate}
-                        minuteInterval={minuteInterval}
-
-                        title={null}
-                        confirmText={t('CONFIRM')}
-                        cancelText={t('CANCEL')}
-                    />
                 </>
             )}
         </Div>

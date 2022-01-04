@@ -17,13 +17,8 @@ export default () => {
     const [lat, setLat] = useState(null)
     const [lng, setLng] = useState(null)
     const [hasInternet, setHasInternet] = useState(true)
-	const [authModal, setAuthModal] = useState(false)
-	const [authPincodeModal, setAuthPincodeModal] = useState(false)
 	const [hasLoc, setHasLoc] = useState(false)
 	const [isLoggedIn, setIsLoggedIn] = useState(false)
-
-    const [user_properties, setUserProperties] = useState([])
-    const [user_property, setUserProperty] = useState({})
 
 	useEffect(() => {
 		setIsLoggedIn(!!token && !_.isEmpty(user))
@@ -67,82 +62,27 @@ export default () => {
             events.publish('userInit', res)
             // console.log(res)
             return res;
-        } else {
-			const id = await storage.get('@Registration:ID'); 
-			if(id){
-				setAuthPincodeModal(true)
-			}
-		}
+        }
     }
 
     const user_logout = async () => {
         Vars.setToken('')
-        await storage.delete('@Session:token');
-		await storage.delete('@Registration:ID'); 
+        await storage.delete('@Session:token'); 
 		events.publish('userLogout', null)
         setToken(null)
         setUser(null)
     }
 
-    const user_login = async (mobile, password) => {
-        const r = await api.post('/login', {mobile, password})
+    const user_login = async (token) => {
+        const r = await api.post('/login', {token})
         if(r && r.token){
             await create(r.token)
             setUser(r.user)
-			await storage.delete('@Registration:ID'); 
             events.publish('userInit', user)
         } else {
             console.log('No token found')
         }
         return r
-    }
-
-    const user_register = async (args) => {
-        const r = await api.post('/register', args)
-		if(r.result === 'success'){
-			await storage.save('@Registration:ID', r.user?.id); 
-		}
-        return r
-    }
-
-    const user_verify = async (code, user) => {
-        const r = await api.post('/verify', { code, id: user?.id })
-        if(r && r.token){
-            await create(r.token)
-            setUser(r.user)
-			await storage.delete('@Registration:ID'); 
-            events.publish('userInit', user)
-        } else {
-            console.log('No token found')
-        }
-        return r;
-    }
-
-	const user_verify_id = async (code) => {
-		const id = await storage.get('@Registration:ID');
-		if(!id) return;
-        const r = await api.post('/verify', { code, id })
-        if(r && r.token){
-            await create(r.token)
-            setUser(r.user)
-			await storage.delete('@Registration:ID'); 
-            events.publish('userInit', user)
-        } else {
-            console.log('No token found')
-        }
-        return r;
-    }
-
-    const user_resend = async (mobile) => {
-        const r = await api.post('/resend', { mobile })
-        return r;
-    }
-
-	const user_resend_token = async () => {
-		const id = await storage.get('@Registration:ID');
-		// if(!id) return false;
-        const r = await api.post('/resend-token', { id })
-        return r;
     }
 
     const user_update = async (args) => {
@@ -169,19 +109,12 @@ export default () => {
     return {
         token, user, lat, lng, hasInternet, 
         isLoggedIn,
-        authModal, setAuthModal,
-        authPincodeModal, setAuthPincodeModal,
         hasLoc,
         setHasInternet,
         user_init,
         user_locate,
-        user_verify,
-		user_verify_id,
-        user_resend,
-		user_resend_token,
         user_login,
         user_logout,
-        user_register,
         user_update,
         user_refetch,
         record_device_push,

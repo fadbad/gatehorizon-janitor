@@ -4,7 +4,7 @@ import {
     Dimensions, Platform, Image, Alert, StyleSheet, KeyboardAvoidingView, I18nManager, Linking, PixelRatio, View, Keyboard, LayoutAnimation, UIManager, Clipboard
 } from 'react-native';
 import _ from 'lodash';
-import ImagePicker from 'react-native-image-crop-picker'
+// import ImagePicker from 'react-native-image-crop-picker'
 import { parsePhoneNumberFromString } from 'libphonenumber-js'
 import { default as Fuse } from '../lib/fuse'
 import countries_json from '../lib/json/countries.json'
@@ -678,7 +678,7 @@ export const uploadedFile = (file, base64 = true, formatted = false) => {
         return file
     }
 }
-
+/*
 export const upload = (args = {}, cb = null ) => {
 
     if(typeof args === 'function'){
@@ -714,7 +714,7 @@ export const upload = (args = {}, cb = null ) => {
         console.log(e)
     });
 }
-
+*/
 // convert arabic numbers to english
 export const englishNumbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 export const arabicNumbers  = ["١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩", "٠"];

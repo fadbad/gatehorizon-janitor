@@ -1,5 +1,5 @@
 import React from 'react'
-import { Div, Text, Icon, Image, IMAGES, Spinner } from "../../ui";
+import { Div, Text, SIZES, Image, IMAGES, Spinner } from "../../ui";
 import { useStore, KeyboardSpacer, alert, useTranslation } from '../../utils'
 import { LinearBg, Input } from "../components";
 
@@ -19,6 +19,7 @@ export default () => {
             setTokenErr('Min 3 chahacters required')
             return false
         }
+        setTokenErr('')
 
         setLoading(true)
         const res = await user_login(token)
@@ -26,7 +27,7 @@ export default () => {
         if(res.result === 'success'){
             toast_show(`${t('WELCOME')} ${res.user?.name}`)
         } else {
-            alert(t('ERROR_OCCURED'), login.message)
+            alert(t('ERROR_OCCURED'), res.message)
         }
     }
 
@@ -34,12 +35,18 @@ export default () => {
         <Div f={1} safe bg={'secondary'}>
             <LinearBg type='login' />
         
-            <Div f={1} center>
-                <Image src={IMAGES.logo} h={50} />
-                <Div mx={18} mt={24} p={20} fw bg={'white'} r={16}>
+            <Div f={1} center mx={18} keyboarddismiss>
+                
+                <Div p={20} w={SIZES.width / 2}>
+                    <Div mb={24}>
+                        <Image src={IMAGES.logo} h={50} />
+                    </Div>
                     <Div fw>
-                        <Text h3>{ t('LOGIN') }</Text>
+                        <Text h3 color={'white'}>{ t('LOGIN') }</Text>
                         <Input 
+                            color={'white'}
+                            autoFocus={true}
+                            autoCorrect={false}
                             label={'Token'}
                             value={token}
                             onChange={v => setToken(v)}
