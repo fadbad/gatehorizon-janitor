@@ -20,7 +20,6 @@ export default ({ show, hide, onRead }) => {
         const v = barcodes[0]?.displayValue
         Vibration.vibrate();
         onRead && onRead(v)
-        hide && hide()
     }, [barcodes])
 
     React.useEffect(() => {
@@ -39,10 +38,21 @@ export default ({ show, hide, onRead }) => {
                 frameProcessor={frameProcessor}
                 frameProcessorFps={5}
             />)}
-            <Div absolute top={24} left={24} right={24}>
+            <Div absolute bottom={24} left={24} right={24}>
                 <Div row align={'center'} justify={'between'}>
-                    <Icon name={'reload'} color={'white'} size={36} onPress={() => setType(t => t === 'back' ? 'front' : 'back')} />
-                    <Icon name={'close-circle'} color={'white'} size={36} onPress={hide} />
+                    <Div 
+                        size={36} r={36} bg={'secondary'} center 
+                        onPress={() => setType(t => t === 'back' ? 'front' : 'back')}
+                    >
+                        <Icon name={'reload'} color={'white'} />
+                    </Div>
+
+                    <Div 
+                        size={36} r={36} bg={'secondary'} center
+                        onPress={hide}
+                    >
+                        <Icon name={'close-circle'} color={'white'} />
+                    </Div>
                 </Div>
             </Div>
             <Icon name={'plus'} size={64} color={'red'} />

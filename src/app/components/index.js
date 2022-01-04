@@ -7,3 +7,4 @@ export { default as SearchInput } from './SearchInput'
 export { default as Updater } from './Updater'
 
 export { default as Camera } from './Camera'
+export { default as Loader } from './Loader'
