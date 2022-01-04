@@ -1,11 +1,6 @@
-import React, { useState } from 'react'
-import { NavigationContainer } from "@react-navigation/native";
-import { navigationRef, navigationTheme, navigate } from "./app/navigation/root";
-
+import React from 'react'
 import { useStore, useApi, useNetChecker, useEvents, useOneSignal, useDeepLinks, currentLang, Vars, useTranslation, useTimedToggle } from "./utils";
-import LoadingScreen from './app/screens/LoadingScreen'
-import { BoardingNavigator, AppNavigator, AuthNavigator } from './app/navigation/screens'
-
+import {LoadingScreen, Home, Login} from './app/screens'
 import { Toast, Div, Text, Spinner } from "./ui";
 import { Updater } from './app/components';
 
@@ -15,10 +10,8 @@ export default () => {
     const api = useApi()
 
     const { 
-        boarded, getOnBoard,
         toast_ref, setHasInternet, record_device_push,
 		notifications_onReceived, notifications_set, user_init, isLoggedIn,
-        boot_properties
     } = useStore()
 
 	const [connected, setConnected] = React.useState(true)
@@ -61,7 +54,6 @@ export default () => {
     const boot = async () => {
         const lang = await currentLang()
         Vars.setLang(lang)
-		await getOnBoard()
 		await user_init()
         doRebootOneSignal()
         setLoaded(true)
@@ -73,19 +65,12 @@ export default () => {
 
     React.useEffect( () => { boot() }, [])
 
-    React.useEffect(() => {
-        if(isLoggedIn) boot_properties()
-    }, [isLoggedIn])
-
     return (
         <>
-            <NavigationContainer ref={navigationRef} theme={navigationTheme}>
-				{
-                    !loaded ? (<Div f={1} bg={'secondary'} center><Spinner color={'white'} /></Div>) : 
-                    !boarded ? <BoardingNavigator /> : 
-                    !isLoggedIn ? <AuthNavigator /> : <AppNavigator />
-                }
-            </NavigationContainer>
+            {
+                !loaded ? (<Div f={1} bg={'secondary'} center><Spinner color={'white'} /></Div>) : 
+                !isLoggedIn ? <Login /> : <Home />
+            }
 
             <Updater />
 
