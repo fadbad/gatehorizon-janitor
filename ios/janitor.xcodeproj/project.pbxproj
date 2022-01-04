@@ -8,24 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* janitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* janitorTests.m */; };
+		09800599C5314072BB6DBFA0 /* Tajawal-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 731952313E11475B8AF1DE1F /* Tajawal-Black.ttf */; };
 		0A784AE81EDDF006256955CC /* libPods-janitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 295BF76E0703D0A8CFD7A54B /* libPods-janitor.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E84FFD69F263E2833F65498F /* libPods-janitor-janitorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD06731569E5A2D3529358E /* libPods-janitor-janitorTests.a */; };
-		CB2A68FCEAC34119A3DD95A3 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A16E8A8679674F6EBF46FE0A /* Montserrat-Black.ttf */; };
-		6BF23ADB50A04848A5E023A1 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3418F1FE1257459789B4EE8F /* Montserrat-Bold.ttf */; };
-		42583439BBA142869CFAC977 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 003A7EC8837546649DC59FAC /* Montserrat-Light.ttf */; };
-		835FD724FEBA41B9A2D9DE15 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10FFB23696B743BCAC4C939D /* Montserrat-Medium.ttf */; };
 		1688D9C56D1C45E8B96B74D7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0E6AEE2E2574099AFE33661 /* Montserrat-Regular.ttf */; };
-		1F291D832895473394A280F0 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AE5D5CFD597417BBC994385 /* Montserrat-Thin.ttf */; };
-		09800599C5314072BB6DBFA0 /* Tajawal-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 731952313E11475B8AF1DE1F /* Tajawal-Black.ttf */; };
-		D2948C462A1F4AEA912FC610 /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81EA54AB15FD4989B6B7CA0E /* Tajawal-Bold.ttf */; };
-		625A2D43782644D2B6D3A2AE /* Tajawal-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 342CFF7631EE47A4A564FA22 /* Tajawal-ExtraLight.ttf */; };
-		B3AF5F981C8C49858D3FA32E /* Tajawal-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FB96892ED124E59A926ACD7 /* Tajawal-Light.ttf */; };
-		CD22CE9601E847CCB02B8399 /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 182CCA60FA3B4513B3B58453 /* Tajawal-Medium.ttf */; };
 		1C036EC211A54228B2C36AC6 /* Tajawal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DECFDA09A6E14EC387C42CCF /* Tajawal-Regular.ttf */; };
+		1F291D832895473394A280F0 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AE5D5CFD597417BBC994385 /* Montserrat-Thin.ttf */; };
+		42583439BBA142869CFAC977 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 003A7EC8837546649DC59FAC /* Montserrat-Light.ttf */; };
+		625A2D43782644D2B6D3A2AE /* Tajawal-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 342CFF7631EE47A4A564FA22 /* Tajawal-ExtraLight.ttf */; };
+		6BF23ADB50A04848A5E023A1 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3418F1FE1257459789B4EE8F /* Montserrat-Bold.ttf */; };
+		835FD724FEBA41B9A2D9DE15 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10FFB23696B743BCAC4C939D /* Montserrat-Medium.ttf */; };
+		8F50409F278488C900D818C5 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F50409E278488C900D818C5 /* Dummy.swift */; };
+		8F5040A32784895B00D818C5 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5040A22784895B00D818C5 /* SplashScreen.storyboard */; };
+		B3AF5F981C8C49858D3FA32E /* Tajawal-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FB96892ED124E59A926ACD7 /* Tajawal-Light.ttf */; };
+		CB2A68FCEAC34119A3DD95A3 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A16E8A8679674F6EBF46FE0A /* Montserrat-Black.ttf */; };
+		CD22CE9601E847CCB02B8399 /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 182CCA60FA3B4513B3B58453 /* Tajawal-Medium.ttf */; };
+		D2948C462A1F4AEA912FC610 /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81EA54AB15FD4989B6B7CA0E /* Tajawal-Bold.ttf */; };
+		E84FFD69F263E2833F65498F /* libPods-janitor-janitorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD06731569E5A2D3529358E /* libPods-janitor-janitorTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,35 +40,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003A7EC8837546649DC59FAC /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* janitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = janitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* janitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = janitorTests.m; sourceTree = "<group>"; };
 		0EC04C687283B96BC230A45B /* Pods-janitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-janitor.debug.xcconfig"; path = "Target Support Files/Pods-janitor/Pods-janitor.debug.xcconfig"; sourceTree = "<group>"; };
+		10FFB23696B743BCAC4C939D /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* janitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = janitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = janitor/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = janitor/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = janitor/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = janitor/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = janitor/main.m; sourceTree = "<group>"; };
+		182CCA60FA3B4513B3B58453 /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Medium.ttf"; path = "../assets/fonts/Tajawal-Medium.ttf"; sourceTree = "<group>"; };
 		295BF76E0703D0A8CFD7A54B /* libPods-janitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-janitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3418F1FE1257459789B4EE8F /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		342CFF7631EE47A4A564FA22 /* Tajawal-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-ExtraLight.ttf"; path = "../assets/fonts/Tajawal-ExtraLight.ttf"; sourceTree = "<group>"; };
 		38FF41EC9C6EF6A468155D18 /* Pods-janitor-janitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-janitor-janitorTests.release.xcconfig"; path = "Target Support Files/Pods-janitor-janitorTests/Pods-janitor-janitorTests.release.xcconfig"; sourceTree = "<group>"; };
 		681C46A1649C62A7528A56F9 /* Pods-janitor-janitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-janitor-janitorTests.debug.xcconfig"; path = "Target Support Files/Pods-janitor-janitorTests/Pods-janitor-janitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AE5D5CFD597417BBC994385 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		6FB96892ED124E59A926ACD7 /* Tajawal-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Light.ttf"; path = "../assets/fonts/Tajawal-Light.ttf"; sourceTree = "<group>"; };
+		731952313E11475B8AF1DE1F /* Tajawal-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Black.ttf"; path = "../assets/fonts/Tajawal-Black.ttf"; sourceTree = "<group>"; };
 		7DD06731569E5A2D3529358E /* libPods-janitor-janitorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-janitor-janitorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = janitor/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81EA54AB15FD4989B6B7CA0E /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Bold.ttf"; path = "../assets/fonts/Tajawal-Bold.ttf"; sourceTree = "<group>"; };
+		8F50409D278488C900D818C5 /* janitor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "janitor-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F50409E278488C900D818C5 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		8F5040A22784895B00D818C5 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
 		9528EF97B622383A3210B306 /* Pods-janitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-janitor.release.xcconfig"; path = "Target Support Files/Pods-janitor/Pods-janitor.release.xcconfig"; sourceTree = "<group>"; };
+		A16E8A8679674F6EBF46FE0A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		DECFDA09A6E14EC387C42CCF /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Regular.ttf"; path = "../assets/fonts/Tajawal-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		A16E8A8679674F6EBF46FE0A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; name = "Montserrat-Black.ttf"; path = "../assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3418F1FE1257459789B4EE8F /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		003A7EC8837546649DC59FAC /* Montserrat-Light.ttf */ = {isa = PBXFileReference; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		10FFB23696B743BCAC4C939D /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F0E6AEE2E2574099AFE33661 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6AE5D5CFD597417BBC994385 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		731952313E11475B8AF1DE1F /* Tajawal-Black.ttf */ = {isa = PBXFileReference; name = "Tajawal-Black.ttf"; path = "../assets/fonts/Tajawal-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		81EA54AB15FD4989B6B7CA0E /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; name = "Tajawal-Bold.ttf"; path = "../assets/fonts/Tajawal-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		342CFF7631EE47A4A564FA22 /* Tajawal-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Tajawal-ExtraLight.ttf"; path = "../assets/fonts/Tajawal-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6FB96892ED124E59A926ACD7 /* Tajawal-Light.ttf */ = {isa = PBXFileReference; name = "Tajawal-Light.ttf"; path = "../assets/fonts/Tajawal-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		182CCA60FA3B4513B3B58453 /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; name = "Tajawal-Medium.ttf"; path = "../assets/fonts/Tajawal-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DECFDA09A6E14EC387C42CCF /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; name = "Tajawal-Regular.ttf"; path = "../assets/fonts/Tajawal-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F0E6AEE2E2574099AFE33661 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +117,6 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = janitor;
@@ -128,8 +130,26 @@
 				681C46A1649C62A7528A56F9 /* Pods-janitor-janitorTests.debug.xcconfig */,
 				38FF41EC9C6EF6A468155D18 /* Pods-janitor-janitorTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		2B21F869F1A64AF3AE32AE83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A16E8A8679674F6EBF46FE0A /* Montserrat-Black.ttf */,
+				3418F1FE1257459789B4EE8F /* Montserrat-Bold.ttf */,
+				003A7EC8837546649DC59FAC /* Montserrat-Light.ttf */,
+				10FFB23696B743BCAC4C939D /* Montserrat-Medium.ttf */,
+				F0E6AEE2E2574099AFE33661 /* Montserrat-Regular.ttf */,
+				6AE5D5CFD597417BBC994385 /* Montserrat-Thin.ttf */,
+				731952313E11475B8AF1DE1F /* Tajawal-Black.ttf */,
+				81EA54AB15FD4989B6B7CA0E /* Tajawal-Bold.ttf */,
+				342CFF7631EE47A4A564FA22 /* Tajawal-ExtraLight.ttf */,
+				6FB96892ED124E59A926ACD7 /* Tajawal-Light.ttf */,
+				182CCA60FA3B4513B3B58453 /* Tajawal-Medium.ttf */,
+				DECFDA09A6E14EC387C42CCF /* Tajawal-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -152,6 +172,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				8F5040A22784895B00D818C5 /* SplashScreen.storyboard */,
+				8F50409E278488C900D818C5 /* Dummy.swift */,
 				13B07FAE1A68108700A75B9A /* janitor */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* janitorTests */,
@@ -159,6 +181,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				298BAAC2C2100FADC40F71CB /* Pods */,
 				2B21F869F1A64AF3AE32AE83 /* Resources */,
+				8F50409D278488C900D818C5 /* janitor-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -173,26 +196,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		2B21F869F1A64AF3AE32AE83 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				A16E8A8679674F6EBF46FE0A /* Montserrat-Black.ttf */,
-				3418F1FE1257459789B4EE8F /* Montserrat-Bold.ttf */,
-				003A7EC8837546649DC59FAC /* Montserrat-Light.ttf */,
-				10FFB23696B743BCAC4C939D /* Montserrat-Medium.ttf */,
-				F0E6AEE2E2574099AFE33661 /* Montserrat-Regular.ttf */,
-				6AE5D5CFD597417BBC994385 /* Montserrat-Thin.ttf */,
-				731952313E11475B8AF1DE1F /* Tajawal-Black.ttf */,
-				81EA54AB15FD4989B6B7CA0E /* Tajawal-Bold.ttf */,
-				342CFF7631EE47A4A564FA22 /* Tajawal-ExtraLight.ttf */,
-				6FB96892ED124E59A926ACD7 /* Tajawal-Light.ttf */,
-				182CCA60FA3B4513B3B58453 /* Tajawal-Medium.ttf */,
-				DECFDA09A6E14EC387C42CCF /* Tajawal-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -253,7 +256,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -288,7 +291,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				CB2A68FCEAC34119A3DD95A3 /* Montserrat-Black.ttf in Resources */,
 				6BF23ADB50A04848A5E023A1 /* Montserrat-Bold.ttf in Resources */,
@@ -302,6 +304,7 @@
 				B3AF5F981C8C49858D3FA32E /* Tajawal-Light.ttf in Resources */,
 				CD22CE9601E847CCB02B8399 /* Tajawal-Medium.ttf in Resources */,
 				1C036EC211A54228B2C36AC6 /* Tajawal-Regular.ttf in Resources */,
+				8F5040A32784895B00D818C5 /* SplashScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				8F50409F278488C900D818C5 /* Dummy.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 681C46A1649C62A7528A56F9 /* Pods-janitor-janitorTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -515,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38FF41EC9C6EF6A468155D18 /* Pods-janitor-janitorTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = janitorTests/Info.plist;
@@ -541,22 +547,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = 786G2WAYQW;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = janitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gatehorizon.janitor;
 				PRODUCT_NAME = janitor;
+				SWIFT_OBJC_BRIDGING_HEADER = "janitor-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -567,20 +577,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = 786G2WAYQW;
 				INFOPLIST_FILE = janitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gatehorizon.janitor;
 				PRODUCT_NAME = janitor;
+				SWIFT_OBJC_BRIDGING_HEADER = "janitor-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

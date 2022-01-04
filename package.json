@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "icon": "react-native set-icon --path ./assets/ICON.png",
     "splash": "react-native set-splash --path ./assets/SPLASH.png --resize center",
+    "splash-ios": "react-native set-splash --path ./assets/SPLASH.png --resize center --platform ios",
     "pod": "cd ./ios && pod install && cd ../",
     "keystore": "cd ./android/app && keytool -genkeypair -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000",
     "fingerprint": "keytool -list -v -keystore ./android/app/my-upload-key.keystore -alias my-key-alias -storepass bitwize -keypass bitwize",

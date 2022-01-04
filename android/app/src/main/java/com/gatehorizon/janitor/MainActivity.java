@@ -1,4 +1,4 @@
-package com.janitor;
+package com.gatehorizon.janitor;
 
 import android.os.Bundle;
 import org.devio.rn.splashscreen.SplashScreen;

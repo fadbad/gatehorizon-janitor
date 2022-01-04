@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.janitor",
+    package = "com.gatehorizon.janitor",
 )
 
 android_resource(
     name = "res",
-    package = "com.janitor",
+    package = "com.gatehorizon.janitor",
     res = "src/main/res",
 )
 
