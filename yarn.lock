@@ -6159,6 +6159,11 @@ react-native-svg@^12.1.1:
     css-select "^2.1.0"
     css-tree "^1.0.0-alpha.39"
 
+react-native-vision-camera@^2.11.2:
+  version "2.11.2"
+  resolved "https://registry.yarnpkg.com/react-native-vision-camera/-/react-native-vision-camera-2.11.2.tgz#72a10c4f454263b871f789d0452dbd5944e93500"
+  integrity sha512-ANr9zIpxv0v3QaHfIKomrteLPlrj3bJmYPsmZa0rbgZJRhj5pTJVAp41EsgeXuZkENmlQzhMQ8G+ZHZsYj/6jw==
+
 react-native-webview@^11.15.0:
   version "11.15.0"
   resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-11.15.0.tgz#b5aea9da579ca17fb9fd324e5202b1b5b8ce9fa8"
@@ -7511,6 +7516,11 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
+
+vision-camera-code-scanner@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/vision-camera-code-scanner/-/vision-camera-code-scanner-0.1.6.tgz#78e65875953a15138e375432112f969b35527df5"
+  integrity sha512-pAhfOYGaHj6ndUqu9L7nyIaPjf+aX6yx/Sz6V6Sgngp6Fa6AE0yckm6Jsl5cdvblL2+Vasdk8W/eWdJCnmV5CA==
 
 vlq@^1.0.0:
   version "1.0.1"

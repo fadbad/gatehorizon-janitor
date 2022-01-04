@@ -36,7 +36,8 @@ export const COLORS = {
 	danger: '#D96060',
 
     // colors
-    black: "#1E1F20",
+    black: "#000",
+    dark: "#1E1F20",
     white: "#FFFFFF",
 
     light: '#d6e0e8',

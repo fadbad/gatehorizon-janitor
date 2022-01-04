@@ -1,7 +1,7 @@
 import React from "react";
 import { Div, Text, Spinner } from '../../ui'
 
-export default React.memo(({ 
+const Btn = ({ 
     bg = 'primary', color='white',
     text, onPress, loading, disabled, ...rest 
 }) => (
@@ -18,4 +18,6 @@ export default React.memo(({
             <Text color={color} size={18} bold>{text}</Text>
         )}
     </Div>
-))
+)
+
+export default React.memo(Btn)

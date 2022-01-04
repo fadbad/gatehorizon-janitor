@@ -62,17 +62,19 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs access to your camera to allow you to support your data with pictures taken from your camera</string>
+	<string>Gate Janitor needs access to your camera to be able to scan QrCodes</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Gate Janitor needs access to your Microphone to assist camera scanning.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs to locate your position to show you results based on your current location</string>
+	<string>Gate Janitor needs to locate your position to show you results based on your current location</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs to locate your position to show you results based on your current location</string>
+	<string>Gate Janitor needs to locate your position to show you results based on your current location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs to locate your position to show you results based on your current location</string>
+	<string>Gate Janitor needs to locate your position to show you results based on your current location</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Enable $(PRODUCT_NAME) to save photos to your photo gallery</string>
+	<string>Enable Gate Janitor to save photos to your photo gallery</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>$(PRODUCT_NAME) requires access to your photo library to allow for avatar upload</string>
+	<string>Gate Janitor requires access to your photo library to allow for avatar upload</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Montserrat-Black.ttf</string>

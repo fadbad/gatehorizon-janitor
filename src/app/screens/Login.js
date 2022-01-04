@@ -37,7 +37,7 @@ export default () => {
         
             <Div f={1} center mx={18} keyboarddismiss>
                 
-                <Div p={20} w={SIZES.width / 2}>
+                <Div p={20} w={(SIZES.width / 2) + 100}>
                     <Div mb={24}>
                         <Image src={IMAGES.logo} h={50} />
                     </Div>

@@ -26,6 +26,7 @@ export default {
     'plus-circle': require('./icons/plus-circle.png'),
     plus: require('./icons/plus.png'),
     privacy: require('./icons/privacy.png'),
+    reload: require('./icons/reload.png'),
     right: require('./icons/right.png'),
     search: require('./icons/search.png'),
     settings: require('./icons/settings.png'),
