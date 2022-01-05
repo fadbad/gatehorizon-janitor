@@ -58,6 +58,7 @@ export { default as SwipeRow } from './SwipeRow'
 export { default as Switch } from './Switch'
 
 // export { default as MaskInput, Masks } from './MaskInput'
+export { default as Gallery } from './Gallery'
 
 export {
     AbstractChart,

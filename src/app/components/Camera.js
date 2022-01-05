@@ -37,6 +37,7 @@ export default ({ show, hide, onRead }) => {
                 isActive={true}
                 frameProcessor={frameProcessor}
                 frameProcessorFps={5}
+                enableZoomGesture={true}
             />)}
             <Div absolute bottom={24} left={24} right={24}>
                 <Div row align={'center'} justify={'between'}>
@@ -56,11 +57,11 @@ export default ({ show, hide, onRead }) => {
                 </Div>
             </Div>
             <Icon name={'plus'} size={64} color={'red'} />
-            {barcodes.map((barcode, idx) => (
+            {/* {barcodes.map((barcode, idx) => (
                 <Text key={idx} size={20} color={'white'} bold>
                     {barcode.displayValue}
                 </Text>
-            ))}
+            ))} */}
         </Div>
     );
 }

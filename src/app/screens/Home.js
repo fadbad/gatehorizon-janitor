@@ -1,8 +1,15 @@
 import React from "react";
-import { Div, Text, Icon, Image, Spinner, CallWave } from '../../ui'
+import { Div, Text, Icon, Image, SIZES, CallWave, Modal, Gallery } from '../../ui'
 import { useStore, useApi, useTranslation, isEmpty } from '../../utils'
-import { Header } from "../components";
-import { Camera, Loader } from "../components";
+import { Header, Camera, Loader, Permanent, Permit } from "../components";
+
+const Result = ({item, type, code, setProcess}) => {
+    return (type === 'permit') ? 
+            <Permit item={item} code={code} setProcess={setProcess} /> : 
+        (type === 'permanent') ? 
+            <Permanent item={item} code={code} setProcess={setProcess} /> : 
+        null
+}
 
 export default () => {
     const api = useApi()
@@ -22,6 +29,7 @@ export default () => {
             setResult(res)
         } else {
             alert(res.message ?? 'Unable to reach server')
+            setResult(null)
             setProcess('idle')
         }
         console.log(res)
@@ -51,11 +59,20 @@ export default () => {
 
                 {(process === 'processing') && (
                     <Div f={1}>
-                        {loading ? <Loader /> : (
-                            <Div f={1} p={24} onPress={() => setProcess('idle')}>
-                                <Text>{JSON.stringify(result)}</Text>
-                            </Div>
-                        )}
+                        {
+                            loading ? <Loader /> : 
+                            result?.type === 'permit' ? (
+                                <Permit 
+                                    item={item} 
+                                    code={code} 
+                                />
+                            ) : result?.type === 'permanent' ? (
+                                <Permanent 
+                                    item={item} 
+                                    code={code} 
+                                />
+                            ) : null
+                        }
                     </Div>
                 )}
                 
