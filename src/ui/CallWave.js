@@ -9,14 +9,13 @@ import Icon from './Icon'
 export default ({
     color = '#6E01EF',
     size = 100,
-    icon,
-    iconSize = 32,
-    iconColor = '#fff',
     scale = 3,
     withReverse = false,
     number = 3,
+    children,
+    onPress,
 }) => (
-    <Div center>
+    <Div center onPress={onPress}>
         <MotiView style={{
             width: size, height: size, borderRadius: size, backgroundColor: color,
             alignItems: 'center', justifyContent: 'center'
@@ -40,7 +39,9 @@ export default ({
                     ]}
                 />
             ))}
-            <Icon name={icon || 'bell'} size={iconSize} color={iconColor} />
+
+            {children}
+
         </MotiView>
     </Div>
 )
