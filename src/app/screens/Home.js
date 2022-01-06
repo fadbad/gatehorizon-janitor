@@ -1,5 +1,5 @@
 import React from "react";
-import { Div, Text, Icon, Image, SIZES, CallWave, Modal, Gallery } from '../../ui'
+import { Div, Text, Icon, Image, CallWave, Overlay } from '../../ui'
 import { useStore, useApi, useTranslation, isEmpty } from '../../utils'
 import { Header, Camera, Loader, Permanent, Permit } from "../components";
 
@@ -14,14 +14,20 @@ const Result = ({item, type, code, setProcess}) => {
 export default () => {
     const api = useApi()
     const { t } = useTranslation()
-    const { user, user_logout } = useStore()
 
     const [loading, setLoading] = React.useState(false)
     const [process, setProcess] = React.useState('idle')
     const [code, setCode] = React.useState(null)
     const [result, setResult] = React.useState(null)
 
+    const onReset = () => {
+        setResult(null)
+        setCode(null)
+        setProcess('idle')
+    }
+
     const onCodeChange = async () => {
+        if(isEmpty(code)) return
         setLoading(true)
         setProcess('processing')
         const res = await api.post('/scan', { code })
@@ -29,8 +35,7 @@ export default () => {
             setResult(res)
         } else {
             alert(res.message ?? 'Unable to reach server')
-            setResult(null)
-            setProcess('idle')
+            onReset()
         }
         console.log(res)
         setLoading(false)
@@ -42,7 +47,7 @@ export default () => {
 
     return (
         <Div f={1} bg={'secondary'}>
-            <Header logo />
+            <Header onPress={onReset}  />
             <Div f={1} bg={'light'} rt={24}>
                 {(process === 'idle') && (
                     <Div f={1} bg={'primary'} center rt={24}>
@@ -63,15 +68,35 @@ export default () => {
                             loading ? <Loader /> : 
                             result?.type === 'permit' ? (
                                 <Permit 
-                                    item={item} 
+                                    item={result?.item} 
                                     code={code} 
+                                    onAccept={() => {
+                                        setResult(null)
+                                        setProcess('idle')
+                                    }}
+                                    onReject={() => {
+                                        setResult(null)
+                                        setProcess('idle')
+                                    }}
                                 />
                             ) : result?.type === 'permanent' ? (
                                 <Permanent 
-                                    item={item} 
+                                    item={result?.item} 
                                     code={code} 
+                                    onAccept={() => {
+                                        setResult(null)
+                                        setProcess('idle')
+                                    }}
+                                    onReject={() => {
+                                        setResult(null)
+                                        setProcess('idle')
+                                    }}
                                 />
-                            ) : null
+                            ) : (
+                                <Div f={1} center onPress={() => setProcess('idle')}>
+                                    <Text>Back</Text>
+                                </Div>
+                            )
                         }
                     </Div>
                 )}

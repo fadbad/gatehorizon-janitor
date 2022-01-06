@@ -21,11 +21,11 @@ export default ({item, code, onAccept, onReject}) => {
         <Div 
             f={1} p={24} 
         > 
-            <Div row mb={12}>
+            <Div mb={12}>
                 <Text h3>
                     {t('PERMANENT_GUEST')}
                 </Text>
-                <Text size={12}> - {code}</Text>
+                <Text size={12}>{code}</Text>
             </Div>  
             
 

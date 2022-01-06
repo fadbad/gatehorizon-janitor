@@ -41,11 +41,11 @@ export default ({item, code, onAccept, onReject}) => {
             f={1} p={24} 
             // onPress={() => setProcess('idle')}
         > 
-            <Div row mb={12}>
+            <Div mb={12}>
                 <Text h3>
                     {t('PERMIT')}
                 </Text>
-                <Text size={12}> - {code}</Text>
+                <Text size={12}>{code}</Text>
             </Div>  
             
 
