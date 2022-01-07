@@ -1,15 +1,7 @@
 import React from "react";
-import { Div, Text, Icon, Image, CallWave, Overlay } from '../../ui'
+import { Div, Text, Icon, Image, CallWave } from '../../ui'
 import { useStore, useApi, useTranslation, isEmpty } from '../../utils'
 import { Header, Camera, Loader, Permanent, Permit } from "../components";
-
-const Result = ({item, type, code, setProcess}) => {
-    return (type === 'permit') ? 
-            <Permit item={item} code={code} setProcess={setProcess} /> : 
-        (type === 'permanent') ? 
-            <Permanent item={item} code={code} setProcess={setProcess} /> : 
-        null
-}
 
 export default () => {
     const api = useApi()
@@ -27,17 +19,18 @@ export default () => {
     }
 
     const onCodeChange = async () => {
-        if(isEmpty(code)) return
         setLoading(true)
         setProcess('processing')
         const res = await api.post('/scan', { code })
-        if(res.result === 'success'){
+        console.log(res)
+        if(res?.result === 'success'){
+            res.code = code
             setResult(res)
+            setCode(null)
         } else {
             alert(res.message ?? 'Unable to reach server')
             onReset()
         }
-        console.log(res)
         setLoading(false)
     }
 
@@ -49,7 +42,7 @@ export default () => {
         <Div f={1} bg={'secondary'}>
             <Header onPress={onReset}  />
             <Div f={1} bg={'light'} rt={24}>
-                {(process === 'idle') && (
+                {(process === 'idle') ? (
                     <Div f={1} bg={'primary'} center rt={24}>
                         <CallWave 
                             size={160} color={'white'}
@@ -60,16 +53,14 @@ export default () => {
                             </Text>
                         </CallWave>
                     </Div>
-                )}
-
-                {(process === 'processing') && (
+                ) : (process === 'processing') ? (
                     <Div f={1}>
                         {
                             loading ? <Loader /> : 
                             result?.type === 'permit' ? (
                                 <Permit 
                                     item={result?.item} 
-                                    code={code} 
+                                    code={result?.code} 
                                     onAccept={() => {
                                         setResult(null)
                                         setProcess('idle')
@@ -82,7 +73,7 @@ export default () => {
                             ) : result?.type === 'permanent' ? (
                                 <Permanent 
                                     item={result?.item} 
-                                    code={code} 
+                                    code={result?.code} 
                                     onAccept={() => {
                                         setResult(null)
                                         setProcess('idle')
@@ -99,15 +90,12 @@ export default () => {
                             )
                         }
                     </Div>
-                )}
+                ) : null}
                 
                 <Camera 
                     show={process === 'scanning'}
-                    hide={() => setProcess('idle')}
-                    onRead={v => {
-                        setCode(v)
-                        setProcess('processing')
-                    }}
+                    hide={onReset}
+                    onRead={v => setCode(v) }
                 />
             </Div>
 
