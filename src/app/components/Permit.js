@@ -1,10 +1,10 @@
 import React from "react";
-import { Div, Text, Icon, Image, SIZES, Modal, Gallery } from '../../ui'
+import { Div, Text, Icon, Image, SIZES, Modal, Gallery, Spinner } from '../../ui'
 import { useTranslation, isEmpty } from '../../utils'
 import DateCal from "./DateCal";
 import Btn from "./Btn";
 
-export default ({item, code, onAccept, onReject}) => {
+export default ({item, code, onAccept, onReject, loadingAccept}) => {
     const { t } = useTranslation()
     const user = item?.user ?? {}
     const property = item?.property ?? {}
@@ -109,7 +109,7 @@ export default ({item, code, onAccept, onReject}) => {
                 </Div>
                 <Div w={12} />
                 <Div f={1} onPress={onAccept}>
-                    <Btn bg={'primary'} text={t('ACCEPT')} />
+                    <Btn bg={'primary'} text={t('ACCEPT')} loading={loadingAccept} />
                 </Div>
             </Div>
             
