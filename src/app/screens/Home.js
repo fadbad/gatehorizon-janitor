@@ -1,7 +1,7 @@
 import React from "react";
-import { Div, Text, Icon, Image, CallWave } from '../../ui'
-import { useStore, useApi, useTranslation, isEmpty } from '../../utils'
-import { Header, Camera, Loader, Permanent, Permit } from "../components";
+import { Div, Text, Icon, Image, CallWave, Overlay } from '../../ui'
+import { useStore, useApi, useTranslation, isEmpty, KeyboardSpacer } from '../../utils'
+import { Header, Camera, Loader, Permanent, Permit, Group, Input } from "../components";
 
 export default () => {
     const api = useApi()
@@ -12,9 +12,16 @@ export default () => {
     const [code, setCode] = React.useState(null)
     const [result, setResult] = React.useState(null)
 
+    const [showReject, setShowReject] = React.useState(false)
+    const [rejection, setRejection] = React.useState('')
+    const [rejectionText, setRejectionText] = React.useState('')
+
     const onReset = () => {
         setResult(null)
         setCode(null)
+        setShowReject(false)
+        setRejection('')
+        setRejectionText('')
         setProcess('idle')
     }
 
@@ -65,10 +72,7 @@ export default () => {
                                         setResult(null)
                                         setProcess('idle')
                                     }}
-                                    onReject={() => {
-                                        setResult(null)
-                                        setProcess('idle')
-                                    }}
+                                    onReject={() => setShowReject(true)}
                                 />
                             ) : result?.type === 'permanent' ? (
                                 <Permanent 
@@ -78,10 +82,7 @@ export default () => {
                                         setResult(null)
                                         setProcess('idle')
                                     }}
-                                    onReject={() => {
-                                        setResult(null)
-                                        setProcess('idle')
-                                    }}
+                                    onReject={() => setShowReject(true)}
                                 />
                             ) : (
                                 <Div f={1} center onPress={() => setProcess('idle')}>
@@ -98,7 +99,51 @@ export default () => {
                     onRead={v => setCode(v) }
                 />
             </Div>
+            
+            <Overlay
+                show={showReject}
+                hide={() => setShowReject(false)}
+                w={'95%'}
+                bg={'red'}
+                p={24}
+            >
+                <Div keyboarddismiss>
+                    <Text h4 color={'white'} mb={12}>
+                        {t('REJECTION_REASON')}
+                    </Text>
+                    <Group 
+                        options={[
+                            {value: 'COVID_RESTRICTIONS', text: t('COVID_RESTRICTIONS')},
+                            {value: 'FACILITY_IS_TEMPORARY_CLOSED', text: t('FACILITY_IS_TEMPORARY_CLOSED')},
+                            {value: 'ALLOWED_GUESTS_NUMBER_EXCEEDED', text: t('ALLOWED_GUESTS_NUMBER_EXCEEDED')},
+                            {value: 'OTHER', text: t('OTHER')},
+                        ]}
+                        onChange={v => setRejection(v)}
+                    />
+                    {rejection === 'OTHER' && (
+                        <>
+                        <Input 
+                            label={t('REJECTION_REASON')}
+                            value={rejectionText}
+                            onChange={v => setRejectionText(v)}
+                            color={'white'}
+                        />
+                        <KeyboardSpacer />
+                        </>
+                    )}
 
+                    <Div 
+                        bg={'white'} px={12} py={8} r={8} center
+                        disabled={isEmpty(rejection)}
+                        o={isEmpty(rejection) ? 0.5 : 1}
+                    >
+                        <Text bold>{t('SAVE')}</Text>
+                    </Div>
+
+                    <Icon name={'close-filled'} size={24} absolute right={-28} top={-28} color={'secondary'} onPress={() => setShowReject(false)} />
+
+                </Div>
+            </Overlay>
         </Div>
     )
 }

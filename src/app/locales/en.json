@@ -13,6 +13,12 @@
 	"ACCEPT": "Accept",
 	"REJECT": "Reject",
 
+	"REJECTION_REASON": "Rejection reason",
+	"COVID_RESTRICTIONS": "Covid restrictions",
+	"FACILITY_IS_TEMPORARY_CLOSED": "Facility is temporary closed",
+	"ALLOWED_GUESTS_NUMBER_EXCEEDED": "Allowed guests number exceeded",
+	"OTHER": "Other",
+
 	"SOS": "SOS",
 	"SLIDE_TO_SOS": "Slide to SOS",
 	"UNABLE_TO_LOCATE_YOU": "Unable to locate you",

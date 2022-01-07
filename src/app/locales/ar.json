@@ -13,6 +13,12 @@
 	"ACCEPT": "قبول",
 	"REJECT": "رفض",
 
+	"REJECTION_REASON": "سبب الرفض",
+	"COVID_RESTRICTIONS": "قيود كوفيد",
+	"FACILITY_IS_TEMPORARY_CLOSED": "المرفق مغلق مؤقتا",
+	"ALLOWED_GUESTS_NUMBER_EXCEEDED": "تم تجاوز عدد الضيوف المسموح بهم",
+	"OTHER": "آخر",
+
 	"SOS": "نداء إستغاثة",
 	"SLIDE_TO_SOS": "حرّك لإرسال النداء",
 	"UNABLE_TO_LOCATE_YOU": "غير قادر على تحديد موقعك",
