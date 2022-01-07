@@ -19,7 +19,7 @@ export default () => {
                     <Image src={'logo'} h={60} color={'white'} />
                     <Div mt={24}>
                         <Text h3 color={'white'}>
-                            Gate Horizon new verion {newVersion} released
+                            Gate Janitor new verion {newVersion} released
                         </Text>
                         <Text color={'white'} my={12}>
                             It's highly recommended to download the latest release

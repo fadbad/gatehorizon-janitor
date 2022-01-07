@@ -38,8 +38,8 @@ export default ({
 
 	return (
 		<Overlay 
-			isVisible={show}
-			onBackdropPress={hide}
+			show={show}
+			hide={hide}
 			w={'80%'}
 		>
 			{!show ? <Div /> : <Div>

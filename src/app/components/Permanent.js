@@ -72,11 +72,11 @@ export default ({item, code, onAccept, onReject}) => {
             
             <Div py={12} row center>
                 <Div f={1} onPress={onReject}>
-                    <Btn bg={'red'} text={'Reject'} />
+                    <Btn bg={'red'} text={t('REJECT')} />
                 </Div>
                 <Div w={12} />
                 <Div f={1} onPress={onAccept}>
-                    <Btn bg={'primary'} text={'Accept'} />
+                    <Btn bg={'primary'} text={t('ACCEPT')} />
                 </Div>
             </Div>
             

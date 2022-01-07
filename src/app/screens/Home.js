@@ -49,7 +49,7 @@ export default () => {
                             onPress={() => setProcess('scanning')}
                         >
                             <Text size={36} lh={36} bold color={'secondary'}>
-                                SCAN
+                                {t('SCAN')}
                             </Text>
                         </CallWave>
                     </Div>
@@ -85,7 +85,7 @@ export default () => {
                                 />
                             ) : (
                                 <Div f={1} center onPress={() => setProcess('idle')}>
-                                    <Text>Back</Text>
+                                    <Text>{t('BACK')}</Text>
                                 </Div>
                             )
                         }

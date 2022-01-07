@@ -7,6 +7,12 @@
 	"ARRIVED_AT": "Arrived at",
 	"ACCEPTED_AT": "Accepted at",
 
+	"SCAN": "SCAN",
+	"PERMIT": "Permit",
+	"PERMANENT_GUEST": "Permanent Guest",
+	"ACCEPT": "Accept",
+	"REJECT": "Reject",
+
 	"SOS": "SOS",
 	"SLIDE_TO_SOS": "Slide to SOS",
 	"UNABLE_TO_LOCATE_YOU": "Unable to locate you",

@@ -16,8 +16,8 @@ export default ({ show, hide, onRead }) => {
     const [frameProcessor, barcodes] = useScanBarcodes([BarcodeFormat.QR_CODE]);
 
     React.useEffect(() => {
-        console.log('BARCODES', barcodes)
         if(isEmpty(barcodes)) return;
+        console.log('BARCODES', barcodes)
         const v = barcodes[0]?.rawValue // rawValue, displayValue
         if(!isEmpty(v)) {
             Vibration.vibrate();

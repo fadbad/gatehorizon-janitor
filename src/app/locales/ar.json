@@ -7,6 +7,12 @@
 	"ARRIVED_AT": "وصل في",
 	"ACCEPTED_AT": "تم قبوله في",
 
+	"SCAN": "مسح",
+	"PERMIT": "تصريح",
+	"PERMANENT_GUEST": "ضيف دائم",
+	"ACCEPT": "قبول",
+	"REJECT": "رفض",
+
 	"SOS": "نداء إستغاثة",
 	"SLIDE_TO_SOS": "حرّك لإرسال النداء",
 	"UNABLE_TO_LOCATE_YOU": "غير قادر على تحديد موقعك",

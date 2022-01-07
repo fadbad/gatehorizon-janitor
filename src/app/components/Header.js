@@ -1,7 +1,7 @@
 import { t } from 'i18next'
 import React from 'react'
 import { Div, Text, Icon, Image, Overlay } from '../../ui'
-import { empty, useStore, Config, Platform } from '../../utils'
+import { empty, useStore, Config, Platform, Vars, changeLang } from '../../utils'
 
 export default ({ onPress }) => {
 
@@ -11,40 +11,58 @@ export default ({ onPress }) => {
     return (
         <Div z={2}>
             <Div safe barcolor={'light'}>
-                <Div h={80} row mx={24} center>
+                <Div row px={24} py={12} center>
                     <Div size={40} onPress={onPress}>
                         <Image src={'logo'} size={40} contain color={'white'} />
                     </Div>
                     <Div f={1} align={'end'} onPress={() => setShowSettings(true)}>
                         <Div row align={'center'} justify={'end'}>
                             <Div align={'end'}>
-                                <Text color={'white'} size={18}>
+                                <Text color={'white'} size={16}>
                                     {user.name}
                                 </Text>
-                                <Text color={'white'} size={14} lh={14}>
+                                <Text color={'white'} size={12} lh={14}>
                                     {user.compoundName}
                                 </Text>
 
                             </Div>
-                            <Icon name={'user'} color={'primary'} size={40} ml={12} />
+                            <Icon name={'user'} color={'primary'} size={32} ml={12} />
                         </Div>
                     </Div>
                 </Div>
             </Div>
 
             <Overlay
-                isVisible={showSettings}
-                onBackdropPress={() => setShowSettings(false)}
-                w={'80%'}
+                show={showSettings}
+                hide={() => setShowSettings(false)}
+                w={'80%'} p={24}
+                bg={'primary'}
             >
-                <Div center>
-                    <Text bold>{user.name}</Text>
-                    <Div onPress={user_logout} my={8}>
-                        <Text bold color={'red'}>{t('LOGOUT')}</Text>
+                <Div>
+                    <Div center bb mb={8} pb={8}>
+                        <Text color={'secondary'}>{user.name}</Text>
                     </Div>
-                    <Text color={'muted'}>
-                        {Platform.OS}: {Config.VERSION[Platform.OS]}
-                    </Text>
+
+                    <Div center bb mb={8} pb={8}
+                        onPress={() => changeLang(Vars.lang === 'ar' ? 'en' : 'ar')} 
+                    >
+                        <Text bold color={'secondary'}>
+                            {Vars.lang == 'ar' ? 'English' : 'العربية'}
+                        </Text>
+                    </Div>
+
+                    <Div center bb mb={8} pb={8} onPress={user_logout}>
+                        <Text bold color={'secondary'}>
+                            {t('LOGOUT')}
+                        </Text>
+                    </Div>
+                    <Div center>
+                        <Text color={'muted'}>
+                            {Platform.OS}: {Config.VERSION[Platform.OS]}
+                        </Text>
+                    </Div>
+
+                    <Icon name={'close-filled'} size={24} absolute right={-28} top={-28} color={'secondary'} onPress={() => setShowSettings(false)} />
                 </Div>
             </Overlay>
         </Div>
