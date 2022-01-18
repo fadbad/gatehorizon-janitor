@@ -552,7 +552,7 @@
 				CODE_SIGN_ENTITLEMENTS = janitor/janitor.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = 786G2WAYQW;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = janitor/Info.plist;
@@ -586,7 +586,7 @@
 				CODE_SIGN_ENTITLEMENTS = janitor/janitor.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = 786G2WAYQW;
 				INFOPLIST_FILE = janitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

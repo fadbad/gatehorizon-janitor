@@ -7,6 +7,12 @@
 	"ARRIVED_AT": "وصل في",
 	"ACCEPTED_AT": "تم قبوله في",
 
+	"GROUP_PERMIT": "تصريح لمجموعة",
+	"FOR_GUESTS": "لـ {{size}} ضيوف",
+	"CHECK_IN": "تسجيل الوصول",
+	"CHECK_OUT": "تسجيل الخروج",
+	"NOT_ACCEPTED_YET": "لم تقبل بعد",
+
 	"SCAN": "مسح",
 	"PERMIT": "تصريح",
 	"PERMANENT_GUEST": "ضيف دائم",

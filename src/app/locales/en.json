@@ -7,6 +7,12 @@
 	"ARRIVED_AT": "Arrived at",
 	"ACCEPTED_AT": "Accepted at",
 
+	"GROUP_PERMIT": "Group Permit",
+	"FOR_GUESTS": "For {{size}} guests",
+	"CHECK_IN": "Check In",
+	"CHECK_OUT": "Check Out",
+	"NOT_ACCEPTED_YET": "Not accepted yet",
+
 	"SCAN": "SCAN",
 	"PERMIT": "Permit",
 	"PERMANENT_GUEST": "Permanent Guest",

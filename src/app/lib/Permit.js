@@ -1,10 +1,9 @@
 import React from "react";
 import { Div, Text, Icon, Image, SIZES, Modal, Gallery, Spinner } from '../../ui'
 import { useTranslation, isEmpty } from '../../utils'
-import DateCal from "./DateCal";
-import Btn from "./Btn";
+import { Btn, DateCal } from '../components'
 
-export default ({item, code, onAccept, onReject, loadingAccept}) => {
+export default ({item, code, onCheckIn, onCheckOut, loadingIn, loadingOut}) => {
     const { t } = useTranslation()
     const user = item?.user ?? {}
     const property = item?.property ?? {}
@@ -35,6 +34,12 @@ export default ({item, code, onAccept, onReject, loadingAccept}) => {
 
     const [showZoom, setShowZoom] = React.useState(false)
     const [index, setIndex] = React.useState(0)
+
+    const accepted = !isEmpty(item?.accepted_at)
+    const rejected = !isEmpty(item?.rejected_at)
+    const allowed = accepted && !rejected
+
+    const checkedin = !isEmpty(item?.arrived_at)
 
     return (
         <Div 
@@ -103,15 +108,27 @@ export default ({item, code, onAccept, onReject, loadingAccept}) => {
                 
             </Div>
             
-            <Div py={12} row center>
-                <Div f={1} onPress={onReject}>
-                    <Btn bg={'red'} text={t('REJECT')} />
+            {!!rejected && (
+                <Div my={12} bg={'red'} p={8} r={4} center>
+                    <Text h4>{t('REJECTED')}</Text>
+                    <Text>{item?.reject_reason ?? ''}</Text>
                 </Div>
-                <Div w={12} />
-                <Div f={1} onPress={onAccept}>
-                    <Btn bg={'primary'} text={t('ACCEPT')} loading={loadingAccept} />
+            )}
+            {!accepted && (
+                <Div my={12} bg={'pink'} p={8} r={4} center>
+                    <Text h4 color={'white'}>{t('NOT_ACCEPTED_YET')}</Text>
                 </Div>
-            </Div>
+            )}
+            {!!allowed && (
+                <Div pt={12}>
+                    {!checkedin && (<Div mb={12} onPress={onCheckIn}>
+                        <Btn bg={'primary'} text={t('CHECK_IN')} loading={loadingIn} />
+                    </Div>)}
+                    {checkedin && (<Div mb={12} onPress={onCheckOut}>
+                        <Btn bg={'cyan'} text={t('CHECK_OUT')} loading={loadingOut} />
+                    </Div>)}
+                </Div>
+            )}
             
             <Modal isVisible={showZoom}>
                 <Div f={1}>

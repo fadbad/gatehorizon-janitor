@@ -1,9 +1,9 @@
 import React from "react";
 import { Div, Text, Icon, Image, SIZES, Modal, Gallery } from '../../ui'
 import { useTranslation, isEmpty } from '../../utils'
-import Btn from './Btn'
+import { Btn } from '../components'
 
-export default ({item, code, onAccept, onReject, loadingAccept}) => {
+export default ({item, code, onCheckIn, onCheckOut, loadingIn, loadingOut}) => {
     const { t } = useTranslation()
     const user = item?.user ?? {}
     const property = item?.property ?? {}
@@ -70,13 +70,12 @@ export default ({item, code, onAccept, onReject, loadingAccept}) => {
                 
             </Div>
             
-            <Div py={12} row center>
-                <Div f={1} onPress={onReject}>
-                    <Btn bg={'red'} text={t('REJECT')} />
+            <Div pt={12}>
+                <Div mb={12} onPress={onCheckIn}>
+                    <Btn bg={'primary'} text={t('CHECK_IN')} loading={loadingIn} />
                 </Div>
-                <Div w={12} />
-                <Div f={1} onPress={onAccept}>
-                    <Btn bg={'primary'} text={t('ACCEPT')} loading={loadingAccept} />
+                <Div mb={12} onPress={onCheckOut}>
+                    <Btn bg={'cyan'} text={t('CHECK_OUT')} loading={loadingOut} />
                 </Div>
             </Div>
             

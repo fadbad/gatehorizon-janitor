@@ -41,7 +41,7 @@ const Api = async (method, url, data, headers) => {
     try {
         const response = await axios[method](url, data, { headers: headers })
         if(response.status >= 200 && response.status < 400){
-            // console.log('RES', response.data )
+            console.log('RES', response.data )
             return response.data
         } else {
             return false

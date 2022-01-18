@@ -23,31 +23,31 @@ export default () => {
 		setHasInternet(v)
 	})
 
-	const internalNav = async (name, id) => {
-		if(!id) return;
-		switch(name.trim().toLowerCase()) {
-			case 'shop': case 'branch':
-				const item = await api.post(`/fetch-branch/${id}`)
-				navigate('Shop', { item })
-			break;
-			case 'vendor':
-				navigate('Vendor', { id })
-			break;
-		}
-	}
+	// const internalNav = async (name, id) => {
+	// 	if(!id) return;
+	// 	switch(name.trim().toLowerCase()) {
+	// 		case 'shop': case 'branch':
+	// 			const item = await api.post(`/fetch-branch/${id}`)
+	// 			navigate('Shop', { item })
+	// 		break;
+	// 		case 'vendor':
+	// 			navigate('Vendor', { id })
+	// 		break;
+	// 	}
+	// }
 
-    useDeepLinks( async (name, id) => {
-		await internalNav(name, id)
-    })
+    // useDeepLinks( async (name, id) => {
+	// 	await internalNav(name, id)
+    // })
 
     useOneSignal({
         ids: d => record_device_push(d),
         received: n => notifications_onReceived(n),
-        opened: (data) => setTimeout(async () => {
-            const name = data.section || ''
-            const id = data.id || ''
-            await internalNav(name, id)
-        }, 1500),
+        // opened: (data) => setTimeout(async () => {
+        //     const name = data.section || ''
+        //     const id = data.id || ''
+        //     await internalNav(name, id)
+        // }, 1500),
         reboot: rebootOneSignal
 	})
 
@@ -74,11 +74,11 @@ export default () => {
 
             <Updater />
 
-            {!connected && (<Div bg={'red'} absolute bottom={0} fw rt={24}>
+            {/* {!connected && (<Div bg={'red'} absolute bottom={0} fw rt={24}>
                 <Text p={24} color={'white'} size={13} center>
                     {t('NO_NETWORK')}
                 </Text>
-            </Div>)}
+            </Div>)} */}
 
             <LoadingScreen />
 
