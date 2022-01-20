@@ -12,6 +12,12 @@
 	"CHECK_IN": "تسجيل الوصول",
 	"CHECK_OUT": "تسجيل الخروج",
 	"NOT_ACCEPTED_YET": "لم تقبل بعد",
+	"CHECKED_IN_AT": "سجل الوصول في",
+	"CHECKED_OUT_AT": "تسجيل الخروج في",
+	"NOT_CHECKOUT_PERMITS": "Not checked OUT permits",
+
+	"NO_PERMITS_FOUND": "لم يتم العثور على تصاريح!",
+	"NO_GUESTS_FOUND": "لم يتم العثور على ضيوف!",
 
 	"SCAN": "مسح",
 	"PERMIT": "تصريح",

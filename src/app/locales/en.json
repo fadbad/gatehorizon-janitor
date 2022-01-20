@@ -12,6 +12,12 @@
 	"CHECK_IN": "Check In",
 	"CHECK_OUT": "Check Out",
 	"NOT_ACCEPTED_YET": "Not accepted yet",
+	"CHECKED_IN_AT": "Checked in at",
+	"CHECKED_OUT_AT": "Checked out at",
+	"NOT_CHECKOUT_PERMITS": "Not checked OUT permits",
+
+	"NO_PERMITS_FOUND": "No permits found!",
+	"NO_GUESTS_FOUND": "No guests found!",
 
 	"SCAN": "SCAN",
 	"PERMIT": "Permit",

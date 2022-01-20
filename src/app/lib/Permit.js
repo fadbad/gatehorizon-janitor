@@ -1,9 +1,13 @@
 import React from "react";
 import { Div, Text, Icon, Image, SIZES, Modal, Gallery, Spinner } from '../../ui'
 import { useTranslation, isEmpty } from '../../utils'
-import { Btn, DateCal } from '../components'
+import { Btn, DateCal, Car } from '../components'
 
-export default ({item, code, onCheckIn, onCheckOut, loadingIn, loadingOut}) => {
+export default ({
+    item, code, onCheckIn, onCheckOut, loadingIn, loadingOut,
+    noHeader = false,
+    ...rest
+}) => {
     const { t } = useTranslation()
     const user = item?.user ?? {}
     const property = item?.property ?? {}
@@ -42,18 +46,16 @@ export default ({item, code, onCheckIn, onCheckOut, loadingIn, loadingOut}) => {
     const checkedin = !isEmpty(item?.arrived_at)
 
     return (
-        <Div 
-            f={1} p={24} 
-            // onPress={() => setProcess('idle')}
-        > 
-            <Div mb={12}>
-                <Text h3>
-                    {t('PERMIT')}
-                </Text>
-                <Text size={12}>{code}</Text>
-            </Div>  
+        <Div f={1} p={24} {...rest}> 
+            {!noHeader && (
+                <Div mb={12}>
+                    <Text h3>
+                        {t('PERMIT')}
+                    </Text>
+                    <Text size={12}>{code}</Text>
+                </Div>  
+            )}
             
-
             <Div scroll>  
 
                 <Div row center bg={'white'} r={8} p={12} mb={12}>
@@ -69,7 +71,7 @@ export default ({item, code, onCheckIn, onCheckOut, loadingIn, loadingOut}) => {
                     </Div>
                 </Div>
 
-                <Div row center mb={12}>
+                <Div row mb={12}>
                     <Div onPress={() => {
                         setIndex(0)
                         setShowZoom(true)
@@ -80,6 +82,8 @@ export default ({item, code, onCheckIn, onCheckOut, loadingIn, loadingOut}) => {
                         <Text>{guest.name}</Text>
                         <Text>{!guest.above18 ? t('UNDER_18_YEARS') : t(guest?.type?.toUpperCase())}</Text>
                         <Text>{guest.mobile}</Text>
+                        {guest?.hascar && <Car car={guest?.car} mt={8} />}
+                        
                     </Div>
                     <DateCal date={item?.expected_at} />
                 </Div>

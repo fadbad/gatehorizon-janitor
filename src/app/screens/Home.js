@@ -2,7 +2,7 @@ import React from "react";
 import { Div, Text, Icon, Spinner, CallWave } from '../../ui'
 import { useStore, useApi, useTranslation, isEmpty } from '../../utils'
 import { Header, Camera, Loader } from "../components";
-import { Permanent, Permit, PermitGroup } from "../lib";
+import { Permanent, Permit, PermitGroup, List } from "../lib";
 
 export default () => {
     const api = useApi()
@@ -15,6 +15,7 @@ export default () => {
 
     const [loadingIn, setLoadingIn] = React.useState(false)
     const [loadingOut, setLoadingOut] = React.useState(false)
+    const [showList, setShowList] = React.useState(false)
 
     const onReset = () => {
         setResult(null)
@@ -86,6 +87,14 @@ export default () => {
                                 {t('SCAN')}
                             </Text>
                         </CallWave>
+
+                        <Div
+                            size={64} r={64} bg={'secondary'} center
+                            absolute bottom={30} right={10}
+                            onPress={() => setShowList(true)}
+                        >
+                            <Icon name={'privacy'} color={'white'} />
+                        </Div>
                     </Div>
                 ) : (process === 'processing') ? (
                     <Div f={1}>
@@ -126,6 +135,13 @@ export default () => {
                         }
                     </Div>
                 ) : null}
+
+                <List 
+                    show={showList}
+                    hide={() => setShowList(false)}
+                    onCheckOut={onCheckOut}
+                    loadingOut={loadingOut}
+                />
                 
                 <Camera 
                     show={process === 'scanning'}
