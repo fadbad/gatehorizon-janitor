@@ -1,7 +1,7 @@
 
-// const BASE = 'http://192.168.1.225:8000'
+const BASE = 'http://192.168.1.166:8000'
 // const BASE = 'http://127.0.0.1:8000'
-const BASE = 'https://gatehorizon.com'
+// const BASE = 'https://gatehorizon.com'
 
 export default {
     BASE: `${BASE}`,
