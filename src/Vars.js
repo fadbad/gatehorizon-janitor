@@ -20,12 +20,6 @@ class VARS {
     getLocation = () => {
         return {lat: this.lat, lng: this.lng}
     }
-
-    setProperties = v => this.properties = v
-    getProperties = () => this.properties
-
-    setProperty = v => this.property = v
-    getProperty = () => this.property
 }
 
 const Vars = new VARS()

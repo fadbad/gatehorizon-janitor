@@ -2,7 +2,7 @@ import React from "react";
 import { Div, Text, Icon, Spinner, CallWave } from '../../ui'
 import { useStore, useApi, useTranslation, isEmpty } from '../../utils'
 import { Header, Camera, Loader } from "../components";
-import { Permanent, Permit, PermitGroup, List } from "../lib";
+import { Permanent, Permit, PermitGroup, Employee, Search } from "../lib";
 
 export default () => {
     const api = useApi()
@@ -103,29 +103,26 @@ export default () => {
                             result?.type === 'permit' ? (
                                 <Permit 
                                     item={result?.item} 
-                                    code={result?.code} 
-                                    onCheckIn={onCheckIn}
-                                    loadingIn={loadingIn}
-                                    onCheckOut={onCheckOut}
-                                    loadingOut={loadingOut}
+                                    code={result?.code}
+                                    onReset={onReset}
                                 />
                             ) : result?.type === 'grouppermit' ? (
                                 <PermitGroup
                                     item={result?.item} 
-                                    code={result?.code} 
-                                    onCheckIn={onCheckIn}
-                                    loadingIn={loadingIn}
-                                    onCheckOut={onCheckOut}
-                                    loadingOut={loadingOut}
+                                    code={result?.code}
+                                    onReset={onReset}
                                 />
                             ) : result?.type === 'permanent' ? (
                                 <Permanent 
                                     item={result?.item} 
                                     code={result?.code} 
-                                    onCheckIn={onCheckIn}
-                                    loadingIn={loadingIn}
-                                    onCheckOut={onCheckOut}
-                                    loadingOut={loadingOut}
+                                    onReset={onReset}
+                                />
+                            ) : result?.type === 'staff' ? (
+                                <Employee 
+                                    item={result?.item} 
+                                    code={result?.code} 
+                                    onReset={onReset}
                                 />
                             ) : (
                                 <Div f={1} center onPress={() => setProcess('idle')}>
@@ -136,7 +133,7 @@ export default () => {
                     </Div>
                 ) : null}
 
-                <List 
+                <Search 
                     show={showList}
                     hide={() => setShowList(false)}
                     onCheckOut={onCheckOut}

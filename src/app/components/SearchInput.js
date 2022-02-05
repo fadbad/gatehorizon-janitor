@@ -1,20 +1,33 @@
 import React from "react";
 import { TextInput } from "react-native";
-import { Div, Text, Icon, COLORS } from '../../ui'
+import { Div, Text, Icon, COLORS, Spinner } from '../../ui'
 import { empty, fade, useTranslation, isRTL } from "../../utils";
 
 export default React.memo(({
-    onChange, forwardedRef, color = 'secondary', style,
+    onChange, forwardedRef, color = 'secondary', style, type, loading,
     ...rest
 }) => {
     const { t } = useTranslation()
     const [value, setValue] = React.useState('')
     const __color = COLORS[color] || color
     const plColor = fade(__color, 0.64)
+
+    const _props = {}
+    if(type === 'password') _props.secureTextEntry = true
+    if(type === 'number') _props.keyboardType = 'number-pad'
+    if(type === 'numeric') _props.keyboardType = 'numeric'
+    if(type === 'decimal') _props.keyboardType = 'decimal'
+    if(type === 'email') {
+        _props.keyboardType = 'email-address'
+        _props.autoCorrect = false;
+        _props.autoCapitalize = 'none'
+    }
+    if(type === 'phone') _props.keyboardType = 'phone-pad'
+    
     return (
         <Div row center>
-            <Icon name={'search'} color={color} size={16} mr={8} />
-            <Div f={1}>
+            {loading ? <Spinner color={color} size={16} /> : <Icon name={'search'} color={color} size={16} />}
+            <Div f={1} ml={8}>
                 <TextInput 
                     ref={forwardedRef}
                     autoCapitalize="none"
@@ -34,6 +47,7 @@ export default React.memo(({
                         textAlign: isRTL ? 'right' : 'left',
                         writingDirection: (isRTL) ? 'rtl' : 'ltr',
                     }, style]}
+                    {..._props}
                     {...rest}
                 />
             </Div>

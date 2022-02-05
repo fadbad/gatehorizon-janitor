@@ -4,8 +4,13 @@
 	"ACCEPTED": "Accepted",
 	"REJECTED": "Rejected",
 	"EXPIRED": "Expired",
-	"ARRIVED_AT": "Arrived at",
+	"ARRIVED_AT": "Checked IN at",
+	"LEFT_AT": "Checked OUT at",
 	"ACCEPTED_AT": "Accepted at",
+	"EXPECTED_AT": "Expected at",
+
+	"EMPLOYEE": "Employee",
+	"STAFF": "Staff",
 
 	"GROUP_PERMIT": "Group Permit",
 	"FOR_GUESTS": "For {{size}} guests",

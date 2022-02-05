@@ -4,8 +4,13 @@
 	"ACCEPTED": "مقبول",
 	"REJECTED": "مرفوض",
 	"EXPIRED": "منتهي الصلاحية",
-	"ARRIVED_AT": "وصل في",
+	"ARRIVED_AT": "سجل الوصول في",
 	"ACCEPTED_AT": "تم قبوله في",
+	"LEFT_AT": "تسجيل الخروج في",
+	"EXPECTED_AT": "متوقع في",
+
+	"EMPLOYEE": "موظف",
+	"STAFF": "طاقم عمل",
 
 	"GROUP_PERMIT": "تصريح لمجموعة",
 	"FOR_GUESTS": "لـ {{size}} ضيوف",
@@ -137,6 +142,7 @@
     "ERROR_OCCURED": "حدث خطأ",
     "CHANGE": "تغيير",
     "SEARCH": "ابحث",
+    "NO_ITEMS_FOUND": "لا توجد عناصر للعرض ، آسف!",
     "VERSION": "النسخة",
     "LOGOUT": "تسجيل الخروج",
     "TERMS_AND_CONDITIONS": "الأحكام والشروط",

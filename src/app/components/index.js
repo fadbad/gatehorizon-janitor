@@ -1,5 +1,6 @@
 
 export { default as Btn } from './Btn'
+export { default as ButtonGroup } from './ButtonGroup'
 export { default as Header } from './Header'
 export { default as Input } from './Input'
 export { default as LinearBg } from './LinearBg'

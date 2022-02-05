@@ -17,6 +17,52 @@ if (Platform.OS === 'android') {
     }
 }
 
+export const ltrim = (str, chars) => {
+    str = str.toString();
+    if (!str) return '';
+    if (!chars) return str.replace( /^\s+/, '' );
+    chars = chars.toString();
+
+    var i = 0,
+        letters = str.split( '' ),
+        count = letters.length;
+
+    for ( i; i < count; i ++ ) {
+        if ( chars.indexOf( letters[i] ) === -1 ) {
+            return str.substring( i );
+        }
+    }
+    return str;
+}
+
+export const rtrim = (str, chars) => {
+    str = str.toString();
+    if(!str) return '';
+    if (!chars) return str.replace( /\s+$/, '' );
+    chars = chars.toString();
+    var letters = str.split( '' ),
+        i = letters.length - 1;
+
+    for ( i; i >= 0; i -- ) {
+        if ( chars.indexOf( letters[i] ) === -1 ) {
+            return str.substring( 0, i + 1 );
+        }
+    }
+    return str;
+}
+
+export const toSaudiNumber = num => {
+    const regex = /^(009665|9665|\+9665|05|5)(5|0|3|6|4|9|1|8|7)([0-9]{7})$/
+    if( empty(num)) return false;
+    num = num.replace(/\s/g, "") // remove all spaces
+    if(!regex.test(num)) return false;
+    if(_.startsWith(num, '00966')) return num.replace('00966', '966')
+    if(_.startsWith(num, '+966')) return num.replace('+966', '966')
+    if(_.startsWith(num, '966')) return num
+    if(_.startsWith(num, '0')) num = ltrim(num, '0')
+    return `966${num}`
+}
+
 export const countriesJson = countries_json;
 
 // use as: list = fuse(list, ['name', 'title'], options).search(KEYWORD) 

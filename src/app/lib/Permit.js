@@ -1,18 +1,54 @@
 import React from "react";
 import { Div, Text, Icon, Image, SIZES, Modal, Gallery, Spinner } from '../../ui'
-import { useTranslation, isEmpty } from '../../utils'
+import { useTranslation, isEmpty, useApi } from '../../utils'
 import { Btn, DateCal, Car } from '../components'
 
 export default ({
-    item, code, onCheckIn, onCheckOut, loadingIn, loadingOut,
+    item, code, onReset,
     noHeader = false,
     ...rest
 }) => {
     const { t } = useTranslation()
+    const api = useApi()
     const user = item?.user ?? {}
     const property = item?.property ?? {}
     const guest = item?.guest ?? {}
     const images = guest.images ?? []
+
+    const type = 'permit'
+
+    const [loadingIn, setLoadingIn] = React.useState(false)
+    const [loadingOut, setLoadingOut] = React.useState(false)
+
+    const onCheckIn = async () => {
+        setLoadingIn(true)
+        const res = await api.post('/check-in-out', {
+            mode: 'in',
+            id: item?.id,
+            type
+        })
+        setLoadingIn(false)
+        if(res.result === 'success'){
+            onReset && onReset()
+        } else {
+            alert(res.message || 'Unable to communicate with server')
+        }
+    }
+
+    const onCheckOut = async () => {
+        setLoadingOut(true)
+        const res = await api.post('/check-in-out', {
+            mode: 'out',
+            id: item?.id,
+            type
+        })
+        setLoadingOut(false)
+        if(res.result === 'success'){
+            onReset && onReset()
+        } else {
+            alert(res.message || 'Unable to communicate with server')
+        }
+    }
 
     const IMGS = []
     IMGS.push({

@@ -1,14 +1,12 @@
 import React from "react";
 import { Div, Text, Icon, Image, SIZES, Modal, Gallery } from '../../ui'
-import { useTranslation, isEmpty, useApi } from '../../utils'
+import { useTranslation, useApi } from '../../utils'
 import { Btn } from '../components'
 
 export default ({item, code, onReset, noHeader}) => {
     const { t } = useTranslation()
     const api = useApi()
-    const user = item?.user ?? {}
-    const property = item?.property ?? {}
-    const type = 'permanent'
+    const type = 'staff'
 
     const [loadingIn, setLoadingIn] = React.useState(false)
     const [loadingOut, setLoadingOut] = React.useState(false)
@@ -45,12 +43,10 @@ export default ({item, code, onReset, noHeader}) => {
 
     const IMGS = [
         {
-            url: item.image, 
+            url: item.avatar, 
             text: item.name, 
         }
     ]
-
-    if(!isEmpty(item.passport)) IMGS.push({url: item.passport, text: 'ID or Passport'})
 
     const [showZoom, setShowZoom] = React.useState(false)
 
@@ -60,34 +56,20 @@ export default ({item, code, onReset, noHeader}) => {
         > 
             {!noHeader && (<Div mb={12}>
                 <Text h3>
-                    {t('PERMANENT_GUEST')}
+                    {t('EMPLOYEE')}
                 </Text>
                 <Text size={12}>{code}</Text>
-            </Div>)}
+            </Div>)} 
             
 
-            <Div scroll>  
-
-                <Div row center bg={'white'} r={8} p={12} mb={12}>
-                    <Image src={user.avatar} size={48} r={48} />
-                    <Div f={1} ml={8}>
-                        <Div row justify={'between'}>
-                            <Div>
-                                <Text>{user.name}</Text>
-                                <Text>{user.mobile}</Text>
-                            </Div>
-                            <Text>{property.name}</Text>
-                        </Div>
-                    </Div>
-                </Div>
+            <Div scroll>
 
                 <Div row center mb={12}>
                     <Div onPress={() => setShowZoom(true) }>
-                        <Image src={item.image} size={60} r={60} />
+                        <Image src={item.avatar} size={60} r={60} />
                     </Div>
                     <Div f={1} mx={8}>
                         <Text>{item.name}</Text>
-                        <Text>{t(item?.relation?.toUpperCase())}</Text>
                         <Text>{item.mobile}</Text>
                     </Div>
                 </Div>
